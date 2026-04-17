@@ -1,0 +1,4 @@
+# Prettier configuration for Obsidian reading-list vault
+proseWrap: preserve
+tabWidth: 2
+useTabs: false

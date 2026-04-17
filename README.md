@@ -12,24 +12,38 @@ An Obsidian vault tracking software engineering books, authors, and concepts —
 
 ## How to Use
 
-Open this folder as a vault in [Obsidian](https://obsidian.md/). The graph view will show all connections between books, authors, and concepts.
+Open the `vault/` folder as a vault in [Obsidian](https://obsidian.md/). The graph view will show all connections between books, authors, and concepts.
 
-### Key Pages
+### Key Pages (inside `vault/`)
 
-| Page | Purpose |
-|------|---------|
-| `Reading List.md` | Main index — all books, tiered by reading order |
-| `Knowledge Map.md` | Relationship graph at a glance |
-| `Concepts Index.md` | Browse by topic |
-| `Reading Paths.md` | Curated 4-6 book sequences by goal |
-| `CLAUDE.md` | Vault conventions and templates |
+| Page                | Purpose                                         |
+| ------------------- | ----------------------------------------------- |
+| `Reading List.md`   | Main index — all books, tiered by reading order |
+| `Knowledge Map.md`  | Relationship graph at a glance                  |
+| `Concepts Index.md` | Browse by topic                                 |
+| `Reading Paths.md`  | Curated 4-6 book sequences by goal              |
+| `Priority.md`       | Sorting function for what to read next          |
+| `CLAUDE.md`         | Vault conventions and templates                 |
 
-## Structure
+## Repo Structure
 
 ```text
-books/          → one page per book (metadata, summary, related, notes)
-authors/        → one page per author (bio, bibliography, connections)
-concepts/       → one page per concept (definition, relationships, books)
+vault/              → The Obsidian vault (open this in Obsidian)
+  books/            → one page per book (metadata, summary, related, notes)
+  authors/          → one page per author (bio, bibliography, connections)
+  concepts/         → one page per concept (definition, relationships, books)
+scripts/            → Validators (frontmatter, wiki-links)
+.markdownlint.yaml  → Markdown lint config (targets vault/)
+.prettierrc.yaml    → Prettier config (targets vault/)
+```
+
+## Validation
+
+```sh
+markdownlint 'vault/**/*.md'          # Lint markdown
+prettier --check 'vault/**/*.md'      # Check formatting
+./scripts/validate-frontmatter.sh     # Verify book page structure
+./scripts/validate-wikilinks.sh       # Check for broken [[links]]
 ```
 
 ## Adding Books
@@ -41,4 +55,4 @@ With [Claude Code](https://claude.ai/claude-code):
 /summarize-book Clean Code
 ```
 
-Or manually — see `CLAUDE.md` for the template and checklist.
+Or manually — see `vault/CLAUDE.md` for the template and checklist.

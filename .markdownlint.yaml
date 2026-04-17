@@ -76,10 +76,6 @@ code-block-style:
 # MD047 - Files should end with a single newline
 single-trailing-newline: true
 
-# MD049 - Emphasis style: asterisks
-emphasis-style:
-  style: asterisk
-
-# MD050 - Strong emphasis style: asterisks
-strong-style:
-  style: asterisk
+# MD049/MD050 - Emphasis style: defer to prettier
+emphasis-style: false
+strong-style: false
