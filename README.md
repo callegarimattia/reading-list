@@ -32,12 +32,24 @@ vault/              → The Obsidian vault (open this in Obsidian)
   books/            → one page per book (metadata, summary, related, notes)
   authors/          → one page per author (bio, bibliography, connections)
   concepts/         → one page per concept (definition, relationships, books)
+hooks/              → Git hooks (pre-commit)
 scripts/            → Validators
 .markdownlint.yaml  → Markdown lint config (targets vault/)
 .prettierrc.yaml    → Prettier config (targets vault/)
 ```
 
+## Setup
+
+```sh
+npm install -g markdownlint-cli prettier   # Install tools
+git config core.hooksPath hooks            # Enable pre-commit hook
+```
+
+The pre-commit hook runs markdownlint, prettier, and frontmatter validation on every commit.
+
 ## Validation
+
+Run manually if needed:
 
 ```sh
 markdownlint 'vault/**/*.md'          # Lint markdown
@@ -54,4 +66,4 @@ With [Claude Code](https://claude.ai/claude-code):
 /summarize-book Clean Code
 ```
 
-Or manually — see `vault/CLAUDE.md` for the template and checklist.
+Or manually — see `CLAUDE.md` for the template and checklist.

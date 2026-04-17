@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Pre-commit hook: lint, format-check, and validate vault content.
+# Install: git config core.hooksPath hooks
+
+set -euo pipefail
+
+echo "==> markdownlint"
+markdownlint 'vault/**/*.md'
+
+echo "==> prettier"
+prettier --check 'vault/**/*.md'
+
+echo "==> frontmatter"
+./scripts/validate-frontmatter.sh
+
+echo ""
+echo "All checks passed."
