@@ -24,3 +24,7 @@ An approach to software development that centers the design on the business doma
 - [[books/Domain-Driven Design Distilled]] — Vernon's short intro
 - [[books/Analysis Patterns]] — Fowler's precursor
 - [[books/Building Microservices]] — Bounded Context applied to microservices
+- [[books/Strategic Monoliths and Microservices]] — DDD meets architecture strategy (Vernon & Jaskula)
+- [[books/Domain Storytelling]] — collaborative domain modeling technique (Hofer & Schwentner)
+- [[books/Architecture for Flow]] — DDD + Team Topologies + Wardley Mapping (Kaiser)
+- [[books/Balancing Coupling in Software Design]] — coupling in DDD contexts (Khononov)

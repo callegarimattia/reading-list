@@ -41,6 +41,10 @@ The foundational text on modeling complex domains. Introduces Ubiquitous Languag
 - [[books/Implementing Domain-Driven Design]] — Vernon's practical companion ("Red Book")
 - [[books/Patterns of Enterprise Application Architecture]] — Fowler's enterprise patterns Evans builds on
 - [[books/Specification by Example]] — shares the emphasis on shared language
+- [[books/Domain Storytelling]] — collaborative domain modeling technique
+- [[books/Strategic Monoliths and Microservices]] — Vernon extends DDD to architecture strategy
+- [[books/Architecture for Flow]] — integrates DDD with Team Topologies and Wardley Mapping
+- [[books/Balancing Coupling in Software Design]] — coupling analysis in DDD contexts
 
 ## Notes
 

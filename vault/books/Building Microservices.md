@@ -38,6 +38,10 @@ The practical guide to microservices architecture. Extends Fowler's definition a
 - [[books/Domain-Driven Design]] — Bounded Context as the primary decomposition tool
 - [[books/Patterns of Enterprise Application Architecture]] — the monolith-era patterns this evolves from
 - [[books/Monolith to Microservices]] — Newman's migration companion
+- [[books/Strategic Monoliths and Microservices]] — DDD-driven approach to the monolith/micro decision
+- [[books/Balancing Coupling in Software Design]] — coupling as the key challenge
+- [[books/Patterns for API Design]] — designing the interfaces between services
+- [[books/Principles of Web API Design]] — web API design process
 
 ## Notes
 

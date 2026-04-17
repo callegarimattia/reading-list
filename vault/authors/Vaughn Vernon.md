@@ -6,6 +6,7 @@ Author and DDD practitioner. Wrote the practical companion to Evans' Blue Book.
 
 - [[books/Implementing Domain-Driven Design]]
 - [[books/Domain-Driven Design Distilled]]
+- [[books/Strategic Monoliths and Microservices]] (with [[authors/Vaughn Vernon and Tomasz Jaskula|Tomasz Jaskula]])
 
 ## Key Contributions
 

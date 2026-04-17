@@ -24,3 +24,5 @@ Reusable solutions to commonly occurring problems in software design. Named, cat
 - [[books/Smalltalk Best Practice Patterns]] / [[books/Implementation Patterns]] — code-level (Beck)
 - [[books/A Pattern Language]] — the architectural origin (Alexander)
 - [[books/Domain-Driven Design]] — domain-level patterns (Evans)
+- [[books/Patterns for API Design]] — API-level patterns (Zimmermann et al.)
+- [[books/Practical Object-Oriented Design]] — OO design patterns in practice (Metz)

@@ -26,8 +26,10 @@ _From patterns to boundaries to microservices._
 2. [[books/Patterns of Enterprise Application Architecture]] -- enterprise patterns
 3. [[books/Domain-Driven Design]] -- domain at the center
 4. [[books/Clean Architecture]] -- the Dependency Rule
-5. [[books/Building Microservices]] -- decomposition in practice
-6. [[books/Monolith to Microservices]] -- migration strategies
+5. [[books/Balancing Coupling in Software Design]] -- coupling as a design tool
+6. [[books/Software Architecture in Practice]] -- quality attributes and evaluation
+7. [[books/Building Microservices]] -- decomposition in practice
+8. [[books/Monolith to Microservices]] -- migration strategies
 
 **You'll understand**: how to structure systems from the inside out, and when/how to decompose.
 
@@ -53,9 +55,10 @@ _Becoming a professional software developer._
 
 1. [[books/The Pragmatic Programmer]] -- developer mindset
 2. [[books/Clean Code]] -- code-level quality
-3. [[books/The Clean Coder]] -- professional discipline
-4. [[books/Test-Driven Development By Example]] -- test-first practice
-5. [[books/Refactoring]] -- continuous improvement
+3. [[books/Practical Object-Oriented Design]] -- OO design done right
+4. [[books/The Clean Coder]] -- professional discipline
+5. [[books/Test-Driven Development By Example]] -- test-first practice
+6. [[books/Refactoring]] -- continuous improvement
 
 **You'll understand**: how to write, test, and maintain code as a professional practice.
 
@@ -68,10 +71,11 @@ _Modeling complex domains._
 1. [[books/Domain-Driven Design Distilled]] -- the quick overview
 2. [[books/Domain-Driven Design]] -- the full "Blue Book"
 3. [[books/Implementing Domain-Driven Design]] -- practical "Red Book"
-4. [[books/Analysis Patterns]] -- Fowler's precursor
-5. [[books/Specification by Example]] -- shared language in practice
+4. [[books/Domain Storytelling]] -- collaborative domain modeling technique
+5. [[books/Strategic Monoliths and Microservices]] -- DDD meets architecture strategy
+6. [[books/Architecture for Flow]] -- DDD + Team Topologies + Wardley Mapping
 
-**You'll understand**: how to model complex business domains in code using strategic and tactical patterns.
+**You'll understand**: how to model complex business domains in code using strategic and tactical patterns, and how to align architecture with business flow.
 
 ---
 
@@ -81,8 +85,9 @@ _From code to production._
 
 1. [[books/Extreme Programming Explained]] -- where CI started
 2. [[books/Continuous Delivery]] -- the deployment pipeline
-3. [[books/The Phoenix Project]] -- the organizational story
-4. [[books/Accelerate]] -- the data proving it works
+3. [[books/Modern Software Engineering]] -- Farley's engineering approach
+4. [[books/The Phoenix Project]] -- the organizational story
+5. [[books/Accelerate]] -- the data proving it works
 
 **You'll understand**: the full pipeline from agile development through continuous delivery to organizational performance.
 

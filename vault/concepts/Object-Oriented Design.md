@@ -22,3 +22,4 @@ Organizing software around objects that encapsulate data and behavior. The domin
 - [[books/Object-Oriented Analysis and Design with Applications]] — methodology (Booch)
 - [[books/Design Patterns]] — patterns catalog (GoF)
 - [[books/Program Development in Java]] — type-theoretic foundations (Liskov)
+- [[books/Practical Object-Oriented Design]] — pragmatic OO design with Ruby (Metz)

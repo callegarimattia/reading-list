@@ -13,16 +13,16 @@ tags:
 
 # Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation
 
-| Field     | Value                                             |
-| --------- | ------------------------------------------------- |
-| Author    | [[authors/Jez Humble\|Jez Humble]] & David Farley |
-| Type      | Book                                              |
-| Published | 2010                                              |
-| Series    | Martin Fowler Signature Series                    |
-| Status    | `not-started`                                     |
-| Impact    | `medium`                                          |
-| Unlock    | `medium`                                          |
-| Effort    | `medium`                                          |
+| Field     | Value                                                                       |
+| --------- | --------------------------------------------------------------------------- |
+| Author    | [[authors/Jez Humble\|Jez Humble]] & [[authors/David Farley\|David Farley]] |
+| Type      | Book                                                                        |
+| Published | 2010                                                                        |
+| Series    | Martin Fowler Signature Series                                              |
+| Status    | `not-started`                                                               |
+| Impact    | `medium`                                                                    |
+| Unlock    | `medium`                                                                    |
+| Effort    | `medium`                                                                    |
 
 ## Why Read This
 
@@ -40,6 +40,7 @@ The deployment pipeline pattern — from commit to production. Build automation,
 - [[books/Accelerate]] — the data proving these practices work
 - [[books/The Phoenix Project]] — the organizational narrative
 - [[books/Extreme Programming Explained]] — CI/CD as evolution of XP's continuous integration
+- [[books/Modern Software Engineering]] — Farley's solo follow-up applying engineering thinking
 
 ## Notes
 

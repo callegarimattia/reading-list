@@ -37,6 +37,7 @@ Practical patterns for migrating from monolith to microservices — strangler fi
 
 - [[books/Building Microservices]] — Newman's companion on the target state
 - [[books/Working Effectively with Legacy Code]] — similar spirit at the code level
+- [[books/Strategic Monoliths and Microservices]] — DDD-driven approach to the same question
 
 ## Notes
 

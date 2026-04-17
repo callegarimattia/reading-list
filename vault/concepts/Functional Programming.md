@@ -20,3 +20,4 @@ A programming paradigm that treats computation as the evaluation of mathematical
 
 - [[books/Functional Design]] — Martin bridges OO craft into FP
 - [[books/A Discipline of Programming]] — Dijkstra's mathematical approach resonates with FP
+- [[books/Functional and Concurrent Programming]] — comprehensive FP and concurrency treatment (Charpentier)

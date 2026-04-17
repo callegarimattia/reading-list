@@ -28,6 +28,12 @@ A topic-based view into the [[Reading List]].
 - [[concepts/SOLID Principles]]
 - [[concepts/Functional Programming]]
 - [[concepts/Structured Programming]]
+- [[concepts/Coupling]]
+- [[concepts/API Design]]
+
+## Requirements & Modeling
+
+- [[concepts/Ubiquitous Language]]
 
 ## Code Quality & Craft
 

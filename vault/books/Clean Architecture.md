@@ -39,6 +39,9 @@ The Dependency Rule: dependencies point inward toward the domain. Component prin
 - [[books/Domain-Driven Design]] — Evans' domain-centric approach complements the Dependency Rule
 - [[books/Patterns of Enterprise Application Architecture]] — Fowler's pattern catalog for the same layer
 - [[books/Agile Software Development Principles Patterns and Practices]] — where these ideas started
+- [[books/Balancing Coupling in Software Design]] — deep treatment of coupling (the problem Clean Architecture solves)
+- [[books/Software Architecture in Practice]] — quality attributes and evaluation
+- [[books/Righting Software]] — alternative decomposition approach
 
 ## Notes
 

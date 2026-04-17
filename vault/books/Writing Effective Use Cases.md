@@ -38,6 +38,7 @@ The definitive guide to writing use cases at varying levels of formality. Jolt A
 - [[books/Introducing BDD]] — BDD scenarios evolved from use case thinking
 - [[books/BDD in Action]] — modern alternative/complement to formal use cases
 - [[books/Agile Software Development The Cooperative Game]] — Cockburn's theoretical companion
+- [[books/Software Requirements Essentials]] — modern requirements practices
 
 ## Notes
 

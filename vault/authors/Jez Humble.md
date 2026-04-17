@@ -4,7 +4,7 @@ Author and researcher. Co-author of _Continuous Delivery_ and _Accelerate_.
 
 ## Books in This List
 
-- [[books/Continuous Delivery]] (with David Farley)
+- [[books/Continuous Delivery]] (with [[authors/David Farley|Farley]])
 - [[books/Accelerate]] (with Forsgren and [[authors/Gene Kim|Kim]])
 
 ## Key Contributions
