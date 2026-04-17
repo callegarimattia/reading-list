@@ -13,26 +13,30 @@ The user provides a book title or partial match. Find the corresponding page in 
 - If the book page doesn't exist, tell the user to add it first
 - If the book already has a Summary section, ask the user if they want to replace or enrich it
 
-### 2. Fetch summaries from multiple sources
+### 2. Fetch summaries from sources
 
-Use web search/fetch to gather information. Try these sources in order, use at least 2:
+Two modes are available. The user can specify `--lean` for token efficiency, or default to thorough.
 
-**Primary sources (try all):**
+**Lean mode** (`--lean`): Use 1 web source (Goodreads) plus your own training knowledge. Best for well-known books where the LLM has reliable information. Saves ~50% tokens vs thorough mode.
 
-- Goodreads: `https://www.goodreads.com/search?q={url-encoded-title}` — extract description, key themes, reader takeaways
-- Amazon: `https://www.amazon.com/s?k={url-encoded-title}` — extract "About this book" and top review insights
+**Thorough mode** (default): Use at least 2 web sources from the list below.
+
+**Primary sources:**
+
+- Goodreads: `https://www.goodreads.com/search?q={url-encoded-title}` — description, themes, reader takeaways
+- Amazon: `https://www.amazon.com/s?k={url-encoded-title}` — "About this book" and top review insights
 
 **Author/official sources (pick the most relevant):**
 
 - The author's own website or blog (e.g., martinfowler.com, blog.cleancoder.com, dannorth.net)
-- Official project sites related to the book (e.g., dora.dev for Accelerate, refactoring.com for Refactoring)
+- Official project sites (e.g., dora.dev for Accelerate, refactoring.com for Refactoring)
 
 **Community sources (supplement if primary sources are thin):**
 
 - dev.to or medium.com summaries (cross-reference claims)
 - InfoQ articles or talks by the author
 
-When fetching, ask each source for:
+When fetching, extract:
 
 - Book description and structure
 - Key concepts, principles, and frameworks introduced

@@ -1,14 +1,16 @@
 # Reading List Vault — Agent Conventions
 
-Instructions for AI agents working with this Obsidian vault.
+Full policy reference. For templates-only, use `conventions-core.md` instead (saves tokens).
 
 ## Repo Structure
 
 ```text
 .agents/                             # Agent instructions (you are here).
-  conventions.md                     # This file.
+  conventions.md                     # This file (full policies).
+  conventions-core.md                # Templates & tag rules only (compact).
   knowledge-map.md                   # Relationship graph — read this first.
-  add-book.md                        # Procedure for adding a book.
+  add-book.md                        # Procedure for adding a single book.
+  add-books-batch.md                 # Procedure for bulk-adding books (token-efficient).
   summarize-book.md                  # Procedure for summarizing a book.
 .claude/commands/                    # Claude Code skill wiring (points to .agents/).
 vault/                               # The Obsidian vault.
