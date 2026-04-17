@@ -52,6 +52,7 @@ And in the metadata table:
 ```
 
 Use Obsidian tag search to filter:
+
 - `tag:impact/high` — highest daily-work value
 - `tag:unlock/high` — gateway books that open up others
 - `tag:effort/light` — quick reads when time is short

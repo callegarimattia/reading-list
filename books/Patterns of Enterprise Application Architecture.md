@@ -24,17 +24,21 @@ tags:
 | Effort      | `heavy`                                    |
 
 ## Why Read This
+
 The pattern catalog for enterprise systems. Defines patterns like Repository, Unit of Work, Data Mapper, Active Record, and MVC that are now baked into every modern framework.
 
 ## Key Concepts
+
 - [[concepts/Design Patterns]] (enterprise-level)
 - [[concepts/Software Architecture]]
 - Repository, Unit of Work, Data Mapper, Active Record, MVC, Service Layer
 
 ## Related
+
 - [[books/Design Patterns]] — GoF's original pattern catalog; PoEAA extends this to enterprise
 - [[books/Domain-Driven Design]] — Evans builds on Fowler's patterns (Repository, etc.)
 - [[books/Clean Architecture]] — Martin's structural approach to the same problems
 
 ## Notes
-- 
+
+-

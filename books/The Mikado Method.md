@@ -25,9 +25,11 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 A structured technique for making large-scale changes to complex codebases without breaking things. The Mikado Method uses a graph of dependencies to find the safe order of changes — try, fail, record the prerequisite, revert, and work backward from leaves to root.
 
 ## Key Concepts
+
 - [[concepts/Refactoring]] (large-scale, structured)
 - [[concepts/Legacy Code]] (safe change strategy)
 - [[concepts/Technical Debt]] (systematic paydown)
@@ -35,9 +37,11 @@ A structured technique for making large-scale changes to complex codebases witho
 - Try-fail-revert-record cycle
 
 ## Related
+
 - [[books/Working Effectively with Legacy Code]] — Feathers' dependency-breaking techniques; Mikado Method is a complementary strategy for sequencing those changes
 - [[books/Refactoring]] — Fowler's catalog of individual refactorings; Mikado Method sequences them into a safe order
 - [[books/Tidy First]] — Beck's economic framing of when to restructure; Mikado answers *how* to restructure safely
 
 ## Notes
-- 
+
+-

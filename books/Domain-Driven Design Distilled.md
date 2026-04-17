@@ -23,16 +23,20 @@ tags:
 | Effort      | `light`                                    |
 
 ## Why Read This
+
 A short, accessible introduction to DDD for those who find Evans' Blue Book too dense to start with. Covers strategic and tactical patterns concisely.
 
 ## Key Concepts
+
 - [[concepts/Domain-Driven Design]] (condensed)
 - [[concepts/Ubiquitous Language]]
 - Bounded Context, Aggregates, Domain Events
 
 ## Related
+
 - [[books/Domain-Driven Design]] — the full reference this distills
 - [[books/Implementing Domain-Driven Design]] — Vernon's detailed implementation guide
 
 ## Notes
-- 
+
+-

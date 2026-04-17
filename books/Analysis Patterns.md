@@ -23,16 +23,20 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 Reusable conceptual models for business domains. A precursor to [[concepts/Domain-Driven Design|DDD]] — Fowler's work here directly influenced Eric Evans.
 
 ## Key Concepts
+
 - [[concepts/Design Patterns]] (domain-level)
 - [[concepts/Domain-Driven Design]] (precursor)
 - Reusable domain models (accountability, observation, measurement)
 
 ## Related
+
 - [[books/Domain-Driven Design]] — Evans credits this book as an influence
 - [[books/Patterns of Enterprise Application Architecture]] — Fowler's architecture patterns
 
 ## Notes
-- 
+
+-

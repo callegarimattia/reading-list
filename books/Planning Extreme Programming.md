@@ -24,16 +24,20 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 Practical guide to planning in XP — user stories, iteration management, release planning. A collaboration between the two giants.
 
 ## Key Concepts
+
 - [[concepts/Extreme Programming]]
 - [[concepts/Agile]] planning
 - User stories, iteration planning, release planning
 
 ## Related
+
 - [[books/Extreme Programming Explained]] — the methodology this book plans for
 - [[books/Agile Software Development The Cooperative Game]] — Cockburn's theoretical framing
 
 ## Notes
-- 
+
+-

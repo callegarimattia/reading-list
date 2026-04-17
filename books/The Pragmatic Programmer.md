@@ -24,9 +24,11 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 Career-spanning advice on the craft of software development. Named DRY, rubber duck debugging, tracer bullets, and the broken windows theory for code. Read the 2019 edition — it's substantially updated.
 
 ## Key Concepts
+
 - [[concepts/Software Craftsmanship]]
 - [[concepts/Refactoring]] (DRY as motivation)
 - DRY (Don't Repeat Yourself)
@@ -36,9 +38,11 @@ Career-spanning advice on the craft of software development. Named DRY, rubber d
 - Software entropy / broken windows
 
 ## Related
+
 - [[books/Clean Code]] — Martin's complementary code-level perspective
 - [[books/Extreme Programming Explained]] — overlapping agile philosophy
 - [[books/Refactoring]] — DRY principle is a core refactoring motivation
 
 ## Notes
-- 
+
+-

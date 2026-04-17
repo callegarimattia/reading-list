@@ -23,15 +23,19 @@ tags:
 | Effort      | `heavy`                                    |
 
 ## Why Read This
+
 Comprehensive guide to internal and external DSLs, language workbenches, and when to use each approach.
 
 ## Key Concepts
+
 - Internal vs external DSLs
 - Language workbenches
 - [[concepts/Domain-Driven Design]] (DSLs as ubiquitous language expression)
 
 ## Related
+
 - [[books/Domain-Driven Design]] — Ubiquitous Language can be expressed as a DSL
 
 ## Notes
-- 
+
+-

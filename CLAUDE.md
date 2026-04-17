@@ -4,7 +4,7 @@ This is an Obsidian-style knowledge vault tracking software engineering books, a
 
 ## Vault Structure
 
-```
+```text
 reading-list/
 ├── Reading List.md          # Main index. Tiered reading order. Single source of truth for what's in the vault.
 ├── Knowledge Map.md         # Full relationship graph: lineage chains, clusters, adjacency list. Read this first.
@@ -67,7 +67,8 @@ Every book page must have:
 - (reader's notes go here)
 ```
 
-### Optional fields in the metadata table:
+### Optional fields in the metadata table
+
 - `Series` — e.g., "Robert C. Martin Series", "Martin Fowler Signature Series"
 
 ## YAML Frontmatter (for Obsidian tags & search)
@@ -88,6 +89,7 @@ tags:
 ```
 
 Tag conventions:
+
 - `book`, `concept`, `author` — page type
 - `status/not-started`, `status/in-progress`, `status/completed`, `status/on-hold`
 - `author/kent-beck`, `author/martin-fowler`, etc.
@@ -99,6 +101,7 @@ Tag conventions:
 Valid statuses: `not-started` | `in-progress` | `completed` | `on-hold`
 
 When changing status:
+
 1. Update the `Status` field in the book's metadata table
 2. Update the `status/*` tag in frontmatter
 3. Move the entry in Reading List.md to the correct section

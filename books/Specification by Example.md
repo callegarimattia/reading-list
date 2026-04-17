@@ -24,9 +24,11 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 Documents how successful teams use executable specifications to build the right software. Draws on case studies from 50+ teams to distill the [[concepts/Specification by Example|Specification by Example]] pattern.
 
 ## Key Concepts
+
 - [[concepts/Specification by Example]]
 - [[concepts/Living Documentation]]
 - [[concepts/Acceptance Testing]]
@@ -34,8 +36,10 @@ Documents how successful teams use executable specifications to build the right 
 - Key examples as shared understanding
 
 ## Notes
-- 
+
+-
 
 ## Related
+
 - [[books/Introducing BDD]] — BDD as a specific instantiation of this broader pattern
 - [[books/BDD in Action]] — the hands-on toolkit for applying these ideas

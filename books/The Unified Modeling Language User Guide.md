@@ -23,16 +23,20 @@ tags:
 | Effort      | `heavy`                                    |
 
 ## Why Read This
+
 The complete UML reference by its three creators. Covers every diagram type and modeling construct.
 
 ## Key Concepts
+
 - UML notation (complete specification)
 - [[concepts/Object-Oriented Design]]
 - [[concepts/Software Architecture]] visualization
 
 ## Related
+
 - [[books/UML Distilled]] — Fowler's shorter, more practical alternative
 - [[books/Object-Oriented Analysis and Design with Applications]] — Booch's pre-UML methodology
 
 ## Notes
-- 
+
+-

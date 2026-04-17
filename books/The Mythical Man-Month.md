@@ -23,9 +23,11 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 The foundational text on software project management. Brooks's Law, the second-system effect, essential vs. accidental complexity, and "No Silver Bullet." Every idea here is still relevant 50 years later.
 
 ## Key Concepts
+
 - [[concepts/Software Complexity]] (essential vs. accidental)
 - Brooks's Law ("adding manpower to a late project makes it later")
 - No Silver Bullet
@@ -33,9 +35,11 @@ The foundational text on software project management. Brooks's Law, the second-s
 - Surgical team model
 
 ## Related
+
 - [[books/Domain-Driven Design]] — Evans directly engages with essential complexity
 - [[books/The Pragmatic Programmer]] — practical responses to Brooks's challenges
 - [[books/Agile Software Development The Cooperative Game]] — modern team organization theory
 
 ## Notes
-- 
+
+-

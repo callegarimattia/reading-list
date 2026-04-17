@@ -3,6 +3,7 @@
 Chief Scientist at Thoughtworks. Author, speaker, and bliki writer. Agile Manifesto signatory.
 
 ## Books in This List
+
 - [[books/Analysis Patterns]]
 - [[books/Refactoring]]
 - [[books/Planning Extreme Programming]] (with [[authors/Kent Beck|Kent Beck]])
@@ -12,6 +13,7 @@ Chief Scientist at Thoughtworks. Author, speaker, and bliki writer. Agile Manife
 - [[books/NoSQL Distilled]]
 
 ## Key Contributions
+
 - Coined "Dependency Injection"
 - Co-defined microservices architectural style (with James Lewis)
 - Popularized refactoring as a discipline
@@ -20,6 +22,7 @@ Chief Scientist at Thoughtworks. Author, speaker, and bliki writer. Agile Manife
 - Martin Fowler Signature Series (published Humble, Newman, and others)
 
 ## Connections
+
 - Co-authored with [[authors/Kent Beck|Kent Beck]]
 - Wrote foreword to [[books/Domain-Driven Design]] by [[authors/Eric Evans|Eric Evans]]
 - Agile Manifesto co-signatory with Beck, [[authors/Robert C Martin|Martin]], Hunt, Cunningham, Cockburn

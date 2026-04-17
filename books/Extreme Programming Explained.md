@@ -24,9 +24,11 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 The defining text of [[concepts/Extreme Programming|XP]]. Values, principles, and practices — pair programming, continuous integration, small releases, simple design, collective ownership. The 2nd edition is more mature and reflective.
 
 ## Key Concepts
+
 - [[concepts/Extreme Programming]]
 - [[concepts/Agile]]
 - [[concepts/Test-Driven Development]]
@@ -34,10 +36,12 @@ The defining text of [[concepts/Extreme Programming|XP]]. Values, principles, an
 - Pair programming, continuous integration, collective ownership
 
 ## Related
+
 - [[books/Planning Extreme Programming]] — the planning companion (with Fowler)
 - [[books/Test-Driven Development By Example]] — deep dive into XP's TDD practice
 - [[books/Clean Agile]] — Martin's back-to-basics take on agile values
 - [[books/Agile Software Development The Cooperative Game]] — Cockburn's theoretical complement
 
 ## Notes
-- 
+
+-

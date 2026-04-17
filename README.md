@@ -26,7 +26,7 @@ Open this folder as a vault in [Obsidian](https://obsidian.md/). The graph view 
 
 ## Structure
 
-```
+```text
 books/          → one page per book (metadata, summary, related, notes)
 authors/        → one page per author (bio, bibliography, connections)
 concepts/       → one page per concept (definition, relationships, books)
@@ -36,7 +36,7 @@ concepts/       → one page per concept (definition, relationships, books)
 
 With [Claude Code](https://claude.ai/claude-code):
 
-```
+```sh
 /add-book The Mikado Method
 /summarize-book Clean Code
 ```

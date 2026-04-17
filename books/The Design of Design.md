@@ -23,15 +23,19 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 Brooks reflects on the design process itself — collaboration, constraints, and how designers actually think. A philosophical companion to The Mythical Man-Month.
 
 ## Key Concepts
+
 - Design process
 - Collaboration and constraints
 - [[concepts/Software Complexity]]
 
 ## Related
+
 - [[books/The Mythical Man-Month]] — Brooks's earlier, more famous work
 
 ## Notes
-- 
+
+-

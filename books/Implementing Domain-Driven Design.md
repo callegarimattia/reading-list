@@ -24,16 +24,20 @@ tags:
 | Effort      | `heavy`                                    |
 
 ## Why Read This
+
 The practical companion to Evans' "Blue Book." Worked examples showing how to actually implement DDD patterns in Java — Aggregates, Repositories, Domain Events, CQRS, Event Sourcing.
 
 ## Key Concepts
+
 - [[concepts/Domain-Driven Design]] (practical implementation)
 - CQRS and Event Sourcing
 - Aggregate design
 
 ## Related
+
 - [[books/Domain-Driven Design]] — Evans' foundational "Blue Book" this builds on
 - [[books/Domain-Driven Design Distilled]] — Vernon's shorter intro
 
 ## Notes
-- 
+
+-

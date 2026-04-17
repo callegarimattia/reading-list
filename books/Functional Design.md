@@ -23,16 +23,20 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 Martin applies his craft and design thinking to functional programming. Bridges the OO/FP divide.
 
 ## Key Concepts
+
 - [[concepts/Functional Programming]]
 - [[concepts/Design Patterns]] (functional perspective)
 - [[concepts/Software Craftsmanship]]
 
 ## Related
+
 - [[books/Clean Code]] — the OO predecessor
 - [[books/Clean Architecture]] — architecture principles that transcend paradigm
 
 ## Notes
-- 
+
+-

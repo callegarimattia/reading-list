@@ -8,7 +8,7 @@ A machine-readable map of the entire vault's relationship graph. Read this first
 
 Intellectual ancestry — who built on whose ideas, and in what order.
 
-```
+```text
 Christopher Alexander (patterns, 1977)
   -> Cunningham & Beck (SW patterns, CRC cards, late 1980s)
     -> Gang of Four (23 OO patterns, 1994)
@@ -52,29 +52,37 @@ Humble & Farley (Continuous Delivery, 2010)
 Groups that share context and should be understood together.
 
 ### Agile Manifesto Signatories (in this vault)
+
 Beck, Fowler, Martin, Hunt, Cunningham, Cockburn
 
 ### Book Series
+
 - **Robert C. Martin Series**: Clean Code, The Clean Coder, Clean Architecture, Clean Agile, Functional Design, Working Effectively with Legacy Code, Agile SW Dev PPP
 - **Martin Fowler Signature Series**: Continuous Delivery, Building Microservices
 - **Pragmatic Bookshelf**: The Pragmatic Programmer (+ published many others)
 
 ### The "Clean" Family (Martin)
+
 Clean Code (2008) -> The Clean Coder (2011) -> Clean Architecture (2017) -> Clean Agile (2019) -> Functional Design (2023)
 
 ### The DDD Trilogy
+
 Domain-Driven Design (Evans, 2003) -> Implementing DDD (Vernon, 2013) -> DDD Distilled (Vernon, 2016)
 
 ### The DevOps Trilogy
+
 Continuous Delivery (Humble, 2010) -> The Phoenix Project (Kim, 2013) -> Accelerate (Forsgren/Humble/Kim, 2018)
 
 ### The BDD Lineage (user's original reading list)
+
 Introducing BDD (North, 2006) -> Specification by Example (Adzic, 2011) -> BDD in Action (Smart, 2014)
 
 ### Beck's Arc
+
 Smalltalk Best Practice Patterns (1996) -> XP Explained (1999) -> TDD by Example (2002) -> Implementation Patterns (2007) -> Tidy First? (2023)
 
 ### The Foundations (pre-1980)
+
 A Pattern Language (Alexander, 1977) | The Mythical Man-Month (Brooks, 1975) | A Discipline of Programming (Dijkstra, 1976) | TAOCP (Knuth, 1968+)
 
 ---
@@ -84,7 +92,8 @@ A Pattern Language (Alexander, 1977) | The Mythical Man-Month (Brooks, 1975) | A
 Every node and its direct connections. One line each. Format: `Node -> [connections]`.
 
 ### Books
-```
+
+```text
 Introducing BDD -> [BDD in Action, Specification by Example, Test-Driven Development By Example]
 BDD in Action -> [Introducing BDD, Specification by Example]
 Specification by Example -> [Introducing BDD, BDD in Action, Domain-Driven Design]
@@ -131,7 +140,8 @@ A Pattern Language -> [Design Patterns, Smalltalk Best Practice Patterns]
 ```
 
 ### Authors
-```
+
+```text
 Martin Fowler -> [Kent Beck, Eric Evans, Robert C Martin, Gang of Four]
 Kent Beck -> [Martin Fowler, Ward Cunningham, Gang of Four (Gamma), Robert C Martin, Dan North]
 Robert C Martin -> [Barbara Liskov, Martin Fowler, Kent Beck, Michael Feathers, Dave Thomas and Andy Hunt]

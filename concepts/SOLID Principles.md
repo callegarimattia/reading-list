@@ -9,12 +9,14 @@ Five OO design principles articulated by [[authors/Robert C Martin|Robert C. Mar
 - **D**ependency Inversion Principle — depend on abstractions, not concretions
 
 ## Relationship to Other Concepts
+
 - Foundation of [[concepts/Clean Architecture]]
 - Applied within [[concepts/Object-Oriented Design]]
 - LSP originates from [[authors/Barbara Liskov|Liskov]]'s 1987 keynote
 - DIP relates to Fowler's Dependency Injection
 
 ## Books Covering This
+
 - [[books/Agile Software Development Principles Patterns and Practices]] — where Martin first collected them
 - [[books/Clean Architecture]] — applied at architecture level
 - [[books/Program Development in Java]] — Liskov's original type-theoretic perspective

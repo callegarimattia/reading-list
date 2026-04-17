@@ -24,9 +24,11 @@ tags:
 | Effort      | `heavy`                                    |
 
 ## Why Read This
+
 The foundational text on modeling complex domains. Introduces Ubiquitous Language, Bounded Contexts, Aggregates, and the strategic/tactical pattern split that now underpins microservices architecture.
 
 ## Key Concepts
+
 - [[concepts/Domain-Driven Design]]
 - [[concepts/Ubiquitous Language]]
 - Bounded Context, Context Mapping
@@ -34,10 +36,12 @@ The foundational text on modeling complex domains. Introduces Ubiquitous Languag
 - Strategic vs tactical design
 
 ## Related
+
 - [[books/Analysis Patterns]] — Fowler's precursor that influenced Evans
 - [[books/Implementing Domain-Driven Design]] — Vernon's practical companion ("Red Book")
 - [[books/Patterns of Enterprise Application Architecture]] — Fowler's enterprise patterns Evans builds on
 - [[books/Specification by Example]] — shares the emphasis on shared language
 
 ## Notes
-- 
+
+-

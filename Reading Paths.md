@@ -5,6 +5,7 @@ Curated journeys through 4-6 books each. Pick the path that matches your current
 ---
 
 ## The BDD Path
+
 *From test frustrations to living documentation.*
 
 1. [[books/Test-Driven Development By Example]] -- understand what BDD improves on
@@ -18,6 +19,7 @@ Curated journeys through 4-6 books each. Pick the path that matches your current
 ---
 
 ## The Architecture Path
+
 *From patterns to boundaries to microservices.*
 
 1. [[books/Design Patterns]] -- the vocabulary
@@ -32,6 +34,7 @@ Curated journeys through 4-6 books each. Pick the path that matches your current
 ---
 
 ## The Legacy Code Rescue Path
+
 *From "afraid to touch it" to "confident to change it."*
 
 1. [[books/Working Effectively with Legacy Code]] -- get untested code under test
@@ -45,6 +48,7 @@ Curated journeys through 4-6 books each. Pick the path that matches your current
 ---
 
 ## The Craft Path
+
 *Becoming a professional software developer.*
 
 1. [[books/The Pragmatic Programmer]] -- developer mindset
@@ -58,6 +62,7 @@ Curated journeys through 4-6 books each. Pick the path that matches your current
 ---
 
 ## The DDD Path
+
 *Modeling complex domains.*
 
 1. [[books/Domain-Driven Design Distilled]] -- the quick overview
@@ -71,6 +76,7 @@ Curated journeys through 4-6 books each. Pick the path that matches your current
 ---
 
 ## The DevOps Path
+
 *From code to production.*
 
 1. [[books/Extreme Programming Explained]] -- where CI started
@@ -83,6 +89,7 @@ Curated journeys through 4-6 books each. Pick the path that matches your current
 ---
 
 ## The Foundations Path
+
 *The intellectual bedrock. Dense but timeless.*
 
 1. [[books/The Mythical Man-Month]] -- why software is hard
@@ -95,6 +102,7 @@ Curated journeys through 4-6 books each. Pick the path that matches your current
 ---
 
 ## The Agile Path
+
 *From manifesto to methodology.*
 
 1. [[books/Extreme Programming Explained]] -- the original methodology

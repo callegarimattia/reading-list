@@ -3,6 +3,7 @@
 A topic-based view into the [[Reading List]].
 
 ## Software Process & Methodology
+
 - [[concepts/Agile]]
 - [[concepts/Extreme Programming]]
 - [[concepts/Behavior-Driven Development]]
@@ -10,6 +11,7 @@ A topic-based view into the [[Reading List]].
 - [[concepts/DevOps]]
 
 ## Specification & Collaboration
+
 - [[concepts/Specification by Example]]
 - [[concepts/Acceptance Testing]]
 - [[concepts/Living Documentation]]
@@ -17,6 +19,7 @@ A topic-based view into the [[Reading List]].
 - [[concepts/Three Amigos]]
 
 ## Design & Architecture
+
 - [[concepts/Software Architecture]]
 - [[concepts/Clean Architecture]]
 - [[concepts/Domain-Driven Design]]
@@ -27,6 +30,7 @@ A topic-based view into the [[Reading List]].
 - [[concepts/Structured Programming]]
 
 ## Code Quality & Craft
+
 - [[concepts/Software Craftsmanship]]
 - [[concepts/Refactoring]]
 - [[concepts/Code Smells]]
@@ -34,4 +38,5 @@ A topic-based view into the [[Reading List]].
 - [[concepts/Technical Debt]]
 
 ## Foundations
+
 - [[concepts/Software Complexity]]

@@ -1,0 +1,85 @@
+# markdownlint configuration for Obsidian reading-list vault
+# Rules reference: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# MD003 - Heading style: ATX only (# not underlines)
+heading-style:
+  style: atx
+
+# MD004 - Unordered list style: dashes only
+ul-style:
+  style: dash
+
+# MD007 - Unordered list indentation: 2 spaces
+ul-indent:
+  indent: 2
+
+# MD009 - No trailing spaces
+no-trailing-spaces:
+  br_spaces: 0
+
+# MD010 - No hard tabs
+no-hard-tabs: true
+
+# MD012 - No multiple consecutive blank lines
+no-multiple-blanks:
+  maximum: 1
+
+# MD013 - Line length: disabled (wiki-links and tables make long lines unavoidable)
+line-length: false
+
+# MD024 - Allow duplicate headings (different books will have same section names)
+no-duplicate-heading:
+  siblings_only: true
+
+# MD025 - Single top-level heading per file
+single-h1: true
+
+# MD026 - No trailing punctuation in headings
+no-trailing-punctuation:
+  punctuation: ".,;:!"
+
+# MD028 - Allow blank lines inside blockquotes (for readability)
+no-blanks-blockquote: false
+
+# MD029 - Ordered list style: ordered (1. 2. 3.)
+ol-prefix:
+  style: ordered
+
+# MD031 - Blank lines around fenced code blocks
+blanks-around-fences: true
+
+# MD032 - Blank lines around lists
+blanks-around-lists: true
+
+# MD033 - No inline HTML (keep it pure markdown)
+no-inline-html: true
+
+# MD034 - No bare URLs (use [text](url))
+no-bare-urls: true
+
+# MD036 - Don't use emphasis as heading substitute
+# Disabled: we use *italic* for source attribution lines and path subtitles
+no-emphasis-as-heading: false
+
+# MD060 - Table column alignment
+# Disabled: wiki-links and varying content make perfect alignment impractical
+table-column-style: false
+
+# MD041 - First line should be top-level heading
+# Disabled: frontmatter (---) comes first in our files
+first-line-heading: false
+
+# MD046 - Code block style: fenced (```) not indented
+code-block-style:
+  style: fenced
+
+# MD047 - Files should end with a single newline
+single-trailing-newline: true
+
+# MD049 - Emphasis style: asterisks
+emphasis-style:
+  style: asterisk
+
+# MD050 - Strong emphasis style: asterisks
+strong-style:
+  style: asterisk

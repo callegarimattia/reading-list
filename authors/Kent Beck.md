@@ -3,6 +3,7 @@
 Creator of Extreme Programming (XP) and Test-Driven Development (TDD). Agile Manifesto signatory.
 
 ## Books in This List
+
 - [[books/Smalltalk Best Practice Patterns]]
 - [[books/Extreme Programming Explained]]
 - [[books/Planning Extreme Programming]] (with [[authors/Martin Fowler|Martin Fowler]])
@@ -11,6 +12,7 @@ Creator of Extreme Programming (XP) and Test-Driven Development (TDD). Agile Man
 - [[books/Tidy First]]
 
 ## Key Contributions
+
 - Created Extreme Programming methodology
 - Created Test-Driven Development (red-green-refactor)
 - Co-created JUnit with Erich Gamma (inspired xUnit family)
@@ -18,6 +20,7 @@ Creator of Extreme Programming (XP) and Test-Driven Development (TDD). Agile Man
 - Software design as economic decision (*Tidy First?*)
 
 ## Connections
+
 - Co-authored with [[authors/Martin Fowler|Fowler]]
 - TDD evolved into [[authors/Dan North|Dan North]]'s BDD
 - CRC Cards with [[authors/Ward Cunningham|Cunningham]]

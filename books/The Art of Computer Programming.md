@@ -23,16 +23,20 @@ tags:
 | Effort      | `heavy`                                    |
 
 ## Why Read This
+
 The definitive reference on fundamental algorithms — sorting, searching, combinatorial algorithms. Knuth's mathematical rigor set the standard for algorithm analysis. More reference than cover-to-cover read.
 
 ## Key Concepts
+
 - Algorithm analysis (Big O)
 - Sorting and searching
 - Combinatorial algorithms
 - Mathematical rigor in CS
 
 ## Related
+
 - [[books/A Discipline of Programming]] — Dijkstra's complementary formal approach
 
 ## Notes
-- 
+
+-

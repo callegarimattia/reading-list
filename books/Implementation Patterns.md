@@ -23,15 +23,19 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 Code-level patterns for Java — how to write clear, communicative code. The spiritual successor to *Smalltalk Best Practice Patterns* for the Java world.
 
 ## Key Concepts
+
 - [[concepts/Design Patterns]] (implementation-level)
 - Naming, method structure, collections, frameworks
 
 ## Related
+
 - [[books/Smalltalk Best Practice Patterns]] — the Smalltalk predecessor
 - [[books/Clean Code]] — Martin's complementary take on code-level quality
 
 ## Notes
-- 
+
+-

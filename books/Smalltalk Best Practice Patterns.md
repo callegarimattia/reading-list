@@ -23,16 +23,20 @@ tags:
 | Effort      | `medium`                                   |
 
 ## Why Read This
+
 Coding patterns at the method and class level — naming, method composition, collections. Beck's earliest and most distilled pattern work. Applicable far beyond Smalltalk.
 
 ## Key Concepts
+
 - [[concepts/Design Patterns]] (code-level)
 - Method composition patterns
 - Naming patterns
 
 ## Related
+
 - [[books/Implementation Patterns]] — Beck's Java-era successor to this book
 - [[books/Design Patterns]] — GoF patterns at a higher level of abstraction
 
 ## Notes
-- 
+
+-
