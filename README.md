@@ -4,9 +4,9 @@ An Obsidian vault tracking software engineering books, authors, and concepts —
 
 ## What's Inside
 
-- **37 books** across 6 tiers (foundational → deep)
-- **23 authors** with bibliographies and connections
-- **20 concepts** with definitions and cross-references
+- **61 books** across 6 tiers (foundational → deep)
+- **41 authors** with bibliographies and connections
+- **26 concepts** with definitions and cross-references
 - **8 reading paths** — curated journeys (BDD, Architecture, Legacy Rescue, DDD, DevOps, etc.)
 
 ## How to Use
@@ -25,18 +25,20 @@ Open the `vault/` folder as a vault in [Obsidian](https://obsidian.md/). The gra
 ## Repo Structure
 
 ```text
-vault/              → The Obsidian vault (open this in Obsidian)
-  books/            → one page per book (metadata, summary, related, notes)
-  authors/          → one page per author (bio, bibliography, connections)
-  concepts/         → one page per concept (definition, relationships, books)
-.agents/            → AI agent instructions (works with any coding assistant)
-  conventions.md    → Vault rules, templates, procedures
-  knowledge-map.md  → Relationship graph for agents
-  add-book.md       → Procedure: add a book
-  summarize-book.md → Procedure: summarize a book
-.claude/            → Claude Code wiring (points to .agents/)
-hooks/              → Git hooks (pre-commit)
-scripts/            → Validators
+vault/                  → The Obsidian vault (open this in Obsidian)
+  books/                → one page per book (metadata, summary, related, notes)
+  authors/              → one page per author (bio, bibliography, connections)
+  concepts/             → one page per concept (definition, relationships, books)
+.agents/                → AI agent instructions (works with any coding assistant)
+  conventions.md        → Full vault rules and policies
+  conventions-core.md   → Compact templates & tag reference
+  knowledge-map.md      → Relationship graph for agents
+  add-book.md           → Procedure: add a single book
+  add-books-batch.md    → Procedure: bulk-add books (token-efficient)
+  summarize-book.md     → Procedure: summarize a book
+.claude/                → Claude Code wiring (points to .agents/)
+hooks/                  → Git hooks (pre-commit)
+scripts/                → Validators
 ```
 
 ## Setup
@@ -60,12 +62,13 @@ prettier --check 'vault/**/*.md'      # Check formatting
 
 ## Adding Books
 
-With any AI coding assistant, point it at `.agents/add-book.md`.
+With any AI coding assistant, point it at `.agents/add-book.md` (single book) or `.agents/add-books-batch.md` (bulk).
 
 With [Claude Code](https://claude.ai/claude-code) specifically:
 
 ```sh
 /add-book The Mikado Method
+/add-books-batch list of titles or PDFs
 /summarize-book Clean Code
 ```
 
