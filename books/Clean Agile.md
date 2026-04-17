@@ -5,6 +5,9 @@ tags:
   - author/robert-c-martin
   - agile
   - extreme-programming
+  - impact/medium
+  - unlock/low
+  - effort/light
 ---
 
 # Clean Agile: Back to Basics
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                                 |
 | Published   | 2019                                                 |
 | Status      | `not-started`                                        |
+| Impact      | `medium`                                   |
+| Unlock      | `low`                                      |
+| Effort      | `light`                                    |
 
 ## Why Read This
 Martin's case for returning to the original agile values — a reaction against the "industrial agile complex" (SAFe, certifications, etc.).

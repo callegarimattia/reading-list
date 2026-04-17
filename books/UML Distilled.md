@@ -5,6 +5,9 @@ tags:
   - author/martin-fowler
   - uml
   - software-architecture
+  - impact/low
+  - unlock/low
+  - effort/light
 ---
 
 # UML Distilled
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 2003 (3rd ed)                                  |
 | Status      | `not-started`                                  |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `light`                                    |
 
 ## Why Read This
 The concise, practitioner-friendly guide to UML. Distills Booch/Rumbaugh/Jacobson's full UML specification into what you actually need.

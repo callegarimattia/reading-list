@@ -6,6 +6,9 @@ tags:
   - software-architecture
   - solid
   - clean-architecture
+  - impact/medium
+  - unlock/medium
+  - effort/medium
 ---
 
 # Clean Architecture: A Craftsman's Guide to Software Structure and Design
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                                 |
 | Published   | 2017                                                 |
 | Status      | `not-started`                                        |
+| Impact      | `medium`                                   |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The Dependency Rule: dependencies point inward toward the domain. Component principles, architecture boundaries, and the case for keeping frameworks at arm's length.

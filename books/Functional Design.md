@@ -5,6 +5,9 @@ tags:
   - author/robert-c-martin
   - functional-programming
   - design-patterns
+  - impact/low
+  - unlock/low
+  - effort/medium
 ---
 
 # Functional Design: Principles, Patterns, and Practices
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                                 |
 | Published   | 2023                                                 |
 | Status      | `not-started`                                        |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Martin applies his craft and design thinking to functional programming. Bridges the OO/FP divide.

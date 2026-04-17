@@ -6,6 +6,9 @@ tags:
   - microservices
   - software-architecture
   - domain-driven-design
+  - impact/medium
+  - unlock/medium
+  - effort/medium
 ---
 
 # Building Microservices
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 2015 (1st ed), 2021 (2nd ed)                  |
 | Status      | `not-started`                                  |
+| Impact      | `medium`                                   |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The practical guide to microservices architecture. Extends Fowler's definition and Evans' Bounded Contexts into actionable patterns for decomposition, communication, and deployment.

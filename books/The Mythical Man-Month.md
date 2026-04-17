@@ -5,6 +5,9 @@ tags:
   - author/fred-brooks
   - software-complexity
   - project-management
+  - impact/medium
+  - unlock/medium
+  - effort/medium
 ---
 
 # The Mythical Man-Month: Essays on Software Engineering
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                         |
 | Published   | 1975 (1st ed), 1995 (Anniversary ed)         |
 | Status      | `not-started`                                |
+| Impact      | `medium`                                   |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The foundational text on software project management. Brooks's Law, the second-system effect, essential vs. accidental complexity, and "No Silver Bullet." Every idea here is still relevant 50 years later.

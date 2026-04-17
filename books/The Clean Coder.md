@@ -5,6 +5,9 @@ tags:
   - author/robert-c-martin
   - software-craftsmanship
   - professionalism
+  - impact/medium
+  - unlock/low
+  - effort/medium
 ---
 
 # The Clean Coder: A Code of Conduct for Professional Programmers
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                                 |
 | Published   | 2011                                                 |
 | Status      | `not-started`                                        |
+| Impact      | `medium`                                   |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Professional discipline for programmers — saying no, estimation, time management, collaboration, practice. The "soft skills" companion to Clean Code.

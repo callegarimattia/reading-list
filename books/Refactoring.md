@@ -6,6 +6,9 @@ tags:
   - refactoring
   - code-smells
   - tdd
+  - impact/high
+  - unlock/high
+  - effort/medium
 ---
 
 # Refactoring: Improving the Design of Existing Code
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 1999 (1st ed, Java), 2018 (2nd ed, JavaScript) |
 | Status      | `not-started`                                  |
+| Impact      | `high`                                     |
+| Unlock      | `high`                                     |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The definitive catalog of refactoring techniques. Teaches how to systematically improve code structure without changing behavior — the discipline that makes [[concepts/Test-Driven Development|TDD]] and [[concepts/Legacy Code|legacy code]] work possible.

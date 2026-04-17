@@ -5,6 +5,9 @@ tags:
   - author/donald-knuth
   - algorithms
   - computer-science
+  - impact/low
+  - unlock/low
+  - effort/heavy
 ---
 
 # The Art of Computer Programming
@@ -15,6 +18,9 @@ tags:
 | Type        | Multi-volume book (ongoing)                    |
 | Published   | 1968-ongoing (Vols 1-4B)                       |
 | Status      | `not-started`                                  |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `heavy`                                    |
 
 ## Why Read This
 The definitive reference on fundamental algorithms — sorting, searching, combinatorial algorithms. Knuth's mathematical rigor set the standard for algorithm analysis. More reference than cover-to-cover read.

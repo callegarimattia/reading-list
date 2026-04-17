@@ -6,6 +6,9 @@ tags:
   - use-cases
   - requirements
   - agile
+  - impact/medium
+  - unlock/low
+  - effort/medium
 ---
 
 # Writing Effective Use Cases
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                                     |
 | Published   | 2000                                                     |
 | Status      | `not-started`                                            |
+| Impact      | `medium`                                   |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The definitive guide to writing use cases at varying levels of formality. Jolt Award winner. Relevant even in BDD contexts — the structure of good scenarios builds on use case thinking.

@@ -6,6 +6,9 @@ tags:
   - bdd
   - specification-by-example
   - acceptance-testing
+  - impact/high
+  - unlock/medium
+  - effort/medium
 ---
 
 # Specification by Example
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 2011                                           |
 | Status      | `not-started`                                  |
+| Impact      | `high`                                     |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Documents how successful teams use executable specifications to build the right software. Draws on case studies from 50+ teams to distill the [[concepts/Specification by Example|Specification by Example]] pattern.

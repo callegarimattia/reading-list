@@ -6,6 +6,9 @@ tags:
   - solid
   - agile
   - design-patterns
+  - impact/medium
+  - unlock/medium
+  - effort/heavy
 ---
 
 # Agile Software Development: Principles, Patterns, and Practices
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                                 |
 | Published   | 2002                                                 |
 | Status      | `not-started`                                        |
+| Impact      | `medium`                                   |
+| Unlock      | `medium`                                   |
+| Effort      | `heavy`                                    |
 
 ## Why Read This
 Where Martin first articulated the [[concepts/SOLID Principles|SOLID principles]] together. Combines agile methodology with OO design principles and patterns in a single volume.

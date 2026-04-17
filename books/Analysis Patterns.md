@@ -5,6 +5,9 @@ tags:
   - author/martin-fowler
   - design-patterns
   - domain-driven-design
+  - impact/low
+  - unlock/low
+  - effort/medium
 ---
 
 # Analysis Patterns: Reusable Object Models
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 1996                                           |
 | Status      | `not-started`                                  |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Reusable conceptual models for business domains. A precursor to [[concepts/Domain-Driven Design|DDD]] — Fowler's work here directly influenced Eric Evans.

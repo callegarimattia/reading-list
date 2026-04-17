@@ -6,6 +6,9 @@ tags:
   - microservices
   - refactoring
   - migration
+  - impact/medium
+  - unlock/low
+  - effort/medium
 ---
 
 # Monolith to Microservices
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 2019                                           |
 | Status      | `not-started`                                  |
+| Impact      | `medium`                                   |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Practical patterns for migrating from monolith to microservices — strangler fig, branch by abstraction, parallel run. When and how (and whether) to decompose.

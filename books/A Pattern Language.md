@@ -5,6 +5,9 @@ tags:
   - author/christopher-alexander
   - design-patterns
   - pattern-languages
+  - impact/low
+  - unlock/medium
+  - effort/heavy
 ---
 
 # A Pattern Language: Towns, Buildings, Construction
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                                       |
 | Published   | 1977                                                       |
 | Status      | `not-started`                                              |
+| Impact      | `low`                                      |
+| Unlock      | `medium`                                   |
+| Effort      | `heavy`                                    |
 
 ## Why Read This
 Not a software book — but the origin of the patterns concept that the GoF, Cunningham, and Beck brought to software. Understanding Alexander's original vision (patterns as a generative language) illuminates what software patterns aspire to be.

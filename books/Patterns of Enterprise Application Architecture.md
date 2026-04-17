@@ -6,6 +6,9 @@ tags:
   - design-patterns
   - software-architecture
   - enterprise
+  - impact/medium
+  - unlock/high
+  - effort/heavy
 ---
 
 # Patterns of Enterprise Application Architecture
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 2002                                           |
 | Status      | `not-started`                                  |
+| Impact      | `medium`                                   |
+| Unlock      | `high`                                     |
+| Effort      | `heavy`                                    |
 
 ## Why Read This
 The pattern catalog for enterprise systems. Defines patterns like Repository, Unit of Work, Data Mapper, Active Record, and MVC that are now baked into every modern framework.

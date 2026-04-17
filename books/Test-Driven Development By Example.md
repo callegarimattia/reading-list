@@ -6,6 +6,9 @@ tags:
   - tdd
   - refactoring
   - testing
+  - impact/high
+  - unlock/high
+  - effort/medium
 ---
 
 # Test-Driven Development: By Example
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                     |
 | Published   | 2002                                     |
 | Status      | `not-started`                            |
+| Impact      | `high`                                     |
+| Unlock      | `high`                                     |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The original TDD book. Two worked examples (multi-currency money and xUnit framework) demonstrating red-green-refactor from scratch. Short, practical, and mind-shifting.

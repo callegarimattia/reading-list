@@ -5,6 +5,9 @@ tags:
   - author/alistair-cockburn
   - agile
   - methodology
+  - impact/medium
+  - unlock/low
+  - effort/medium
 ---
 
 # Agile Software Development: The Cooperative Game
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                                     |
 | Published   | 2001 (1st ed), 2006 (2nd ed)                            |
 | Status      | `not-started`                                            |
+| Impact      | `medium`                                   |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Cockburn frames software development as a cooperative game — not a repeatable manufacturing process. Jolt Award winner. The most theoretical and reflective of the agile books.

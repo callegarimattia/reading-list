@@ -6,6 +6,9 @@ tags:
   - author/andy-hunt
   - software-craftsmanship
   - agile
+  - impact/high
+  - unlock/medium
+  - effort/medium
 ---
 
 # The Pragmatic Programmer: From Journeyman to Master
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                                               |
 | Published   | 1999 (1st ed), 2019 (20th Anniversary 2nd ed)                     |
 | Status      | `not-started`                                                      |
+| Impact      | `high`                                     |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Career-spanning advice on the craft of software development. Named DRY, rubber duck debugging, tracer bullets, and the broken windows theory for code. Read the 2019 edition — it's substantially updated.

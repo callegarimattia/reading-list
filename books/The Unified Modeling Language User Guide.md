@@ -5,6 +5,9 @@ tags:
   - author/grady-booch
   - uml
   - object-oriented-design
+  - impact/low
+  - unlock/low
+  - effort/heavy
 ---
 
 # The Unified Modeling Language User Guide
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                                               |
 | Published   | 1998 (1st ed), 2005 (2nd ed)                                      |
 | Status      | `not-started`                                                      |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `heavy`                                    |
 
 ## Why Read This
 The complete UML reference by its three creators. Covers every diagram type and modeling construct.

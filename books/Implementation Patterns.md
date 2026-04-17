@@ -5,6 +5,9 @@ tags:
   - author/kent-beck
   - design-patterns
   - java
+  - impact/medium
+  - unlock/low
+  - effort/medium
 ---
 
 # Implementation Patterns
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                     |
 | Published   | 2007                                     |
 | Status      | `not-started`                            |
+| Impact      | `medium`                                   |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Code-level patterns for Java — how to write clear, communicative code. The spiritual successor to *Smalltalk Best Practice Patterns* for the Java world.

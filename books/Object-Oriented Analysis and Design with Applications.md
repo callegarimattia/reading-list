@@ -5,6 +5,9 @@ tags:
   - author/grady-booch
   - object-oriented-design
   - software-architecture
+  - impact/low
+  - unlock/low
+  - effort/heavy
 ---
 
 # Object-Oriented Analysis and Design with Applications
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                         |
 | Published   | 1991 (1st ed), 2007 (3rd ed)                |
 | Status      | `not-started`                                |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `heavy`                                    |
 
 ## Why Read This
 The original OO analysis and design methodology — the Booch Method. Understanding where OO design thinking came from before UML standardized the notation.

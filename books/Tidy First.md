@@ -6,6 +6,9 @@ tags:
   - refactoring
   - technical-debt
   - software-economics
+  - impact/medium
+  - unlock/medium
+  - effort/light
 ---
 
 # Tidy First?
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                     |
 | Published   | 2023                                     |
 | Status      | `not-started`                            |
+| Impact      | `medium`                                   |
+| Unlock      | `medium`                                   |
+| Effort      | `light`                                    |
 
 ## Why Read This
 Beck's latest thinking: software design as an economic decision. When should you tidy (small structural improvements) vs. restructure vs. just ship? Frames [[concepts/Refactoring|refactoring]] through the lens of optionality and economics.

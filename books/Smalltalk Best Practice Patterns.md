@@ -5,6 +5,9 @@ tags:
   - author/kent-beck
   - design-patterns
   - smalltalk
+  - impact/medium
+  - unlock/low
+  - effort/medium
 ---
 
 # Smalltalk Best Practice Patterns
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                     |
 | Published   | 1996                                     |
 | Status      | `not-started`                            |
+| Impact      | `medium`                                   |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Coding patterns at the method and class level — naming, method composition, collections. Beck's earliest and most distilled pattern work. Applicable far beyond Smalltalk.

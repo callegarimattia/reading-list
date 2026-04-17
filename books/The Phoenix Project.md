@@ -5,6 +5,9 @@ tags:
   - author/gene-kim
   - devops
   - lean
+  - impact/medium
+  - unlock/medium
+  - effort/medium
 ---
 
 # The Phoenix Project
@@ -15,6 +18,9 @@ tags:
 | Type        | Book (novel)                                 |
 | Published   | 2013                                         |
 | Status      | `not-started`                                |
+| Impact      | `medium`                                   |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 A novel about IT/DevOps transformation. The Three Ways (flow, feedback, continual learning) told through story. Gateway to the DevOps movement.

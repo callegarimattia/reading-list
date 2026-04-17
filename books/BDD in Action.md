@@ -6,6 +6,9 @@ tags:
   - bdd
   - acceptance-testing
   - living-documentation
+  - impact/high
+  - unlock/medium
+  - effort/medium
 ---
 
 # BDD in Action
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                               |
 | Published   | 2014 (1st ed), 2023 (2nd ed)                       |
 | Status      | `not-started`                                      |
+| Impact      | `high`                                     |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The comprehensive practical guide to [[concepts/Behavior-Driven Development|BDD]] — from discovery workshops through to automated [[concepts/Acceptance Testing|acceptance tests]] and [[concepts/Living Documentation|living documentation]].

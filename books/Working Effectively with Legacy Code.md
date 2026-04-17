@@ -6,6 +6,9 @@ tags:
   - legacy-code
   - refactoring
   - tdd
+  - impact/high
+  - unlock/high
+  - effort/medium
 ---
 
 # Working Effectively with Legacy Code
@@ -17,6 +20,9 @@ tags:
 | Published   | 2004                                                   |
 | Series      | Robert C. Martin Series                                |
 | Status      | `not-started`                                          |
+| Impact      | `high`                                     |
+| Unlock      | `high`                                     |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 "Legacy code is code without tests." This book teaches 24 dependency-breaking techniques to get untested code under test so you can change it safely. Essential for anyone working with real-world codebases.

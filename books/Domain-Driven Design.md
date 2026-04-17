@@ -6,6 +6,9 @@ tags:
   - domain-driven-design
   - software-architecture
   - ubiquitous-language
+  - impact/high
+  - unlock/high
+  - effort/heavy
 ---
 
 # Domain-Driven Design: Tackling Complexity in the Heart of Software
@@ -16,6 +19,9 @@ tags:
 | Type        | Book (the "Blue Book")                         |
 | Published   | 2003                                           |
 | Status      | `not-started`                                  |
+| Impact      | `high`                                     |
+| Unlock      | `high`                                     |
+| Effort      | `heavy`                                    |
 
 ## Why Read This
 The foundational text on modeling complex domains. Introduces Ubiquitous Language, Bounded Contexts, Aggregates, and the strategic/tactical pattern split that now underpins microservices architecture.

@@ -5,16 +5,22 @@ tags:
   - author/edsger-dijkstra
   - structured-programming
   - formal-methods
+  - impact/low
+  - unlock/low
+  - effort/heavy
 ---
 
 # A Discipline of Programming
 
-| Field       | Value                                                  |
-| ----------- | ------------------------------------------------------ |
-| Author      | [[authors/Edsger Dijkstra\|Edsger W. Dijkstra]]       |
-| Type        | Book                                                   |
-| Published   | 1976                                                   |
-| Status      | `not-started`                                          |
+| Field     | Value                                           |
+| --------- | ----------------------------------------------- |
+| Author    | [[authors/Edsger Dijkstra\|Edsger W. Dijkstra]] |
+| Type      | Book                                            |
+| Published | 1976                                            |
+| Status    | `not-started`                                   |
+| Impact    | `low`                                           |
+| Unlock    | `low`                                           |
+| Effort    | `heavy`                                         |
 
 ## Why Read This
 Dijkstra's formal approach to program construction — weakest precondition calculus, program derivation. Dense but foundational for understanding correctness and structured programming.

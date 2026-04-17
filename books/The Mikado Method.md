@@ -7,6 +7,9 @@ tags:
   - refactoring
   - legacy-code
   - mikado-method
+  - impact/high
+  - unlock/medium
+  - effort/medium
 ---
 
 # The Mikado Method
@@ -17,6 +20,9 @@ tags:
 | Type        | Book                                                           |
 | Published   | 2014                                                           |
 | Status      | `not-started`                                                  |
+| Impact      | `high`                                     |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 A structured technique for making large-scale changes to complex codebases without breaking things. The Mikado Method uses a graph of dependencies to find the safe order of changes — try, fail, record the prerequisite, revert, and work backward from leaves to root.

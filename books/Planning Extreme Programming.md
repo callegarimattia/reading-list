@@ -6,6 +6,9 @@ tags:
   - author/martin-fowler
   - extreme-programming
   - agile
+  - impact/medium
+  - unlock/low
+  - effort/medium
 ---
 
 # Planning Extreme Programming
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 2000                                           |
 | Status      | `not-started`                                  |
+| Impact      | `medium`                                   |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Practical guide to planning in XP — user stories, iteration management, release planning. A collaboration between the two giants.

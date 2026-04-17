@@ -5,6 +5,9 @@ tags:
   - author/fred-brooks
   - software-complexity
   - design-process
+  - impact/low
+  - unlock/low
+  - effort/medium
 ---
 
 # The Design of Design: Essays from a Computer Scientist
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                         |
 | Published   | 2010                                         |
 | Status      | `not-started`                                |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Brooks reflects on the design process itself — collaboration, constraints, and how designers actually think. A philosophical companion to The Mythical Man-Month.

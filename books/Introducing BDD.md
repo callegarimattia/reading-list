@@ -6,6 +6,9 @@ tags:
   - bdd
   - tdd
   - agile
+  - impact/high
+  - unlock/high
+  - effort/light
 ---
 
 # Introducing BDD
@@ -16,6 +19,9 @@ tags:
 | Type        | Article / Essay (original blog post)       |
 | Published   | 2006                                       |
 | Status      | `not-started`                              |
+| Impact      | `high`                                     |
+| Unlock      | `high`                                     |
+| Effort      | `light`                                    |
 
 ## Why Read This
 The foundational text that coined [[concepts/Behavior-Driven Development|BDD]]. Dan North describes the journey from [[concepts/Test-Driven Development|TDD]] frustrations to a new way of thinking about tests as behavior specifications.

@@ -6,6 +6,9 @@ tags:
   - author/jez-humble
   - devops
   - dora-metrics
+  - impact/high
+  - unlock/medium
+  - effort/medium
 ---
 
 # Accelerate: The Science of Lean Software and DevOps
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                                           |
 | Published   | 2018                                                           |
 | Status      | `completed`                                                  |
+| Impact      | `high`                                     |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Data-driven evidence that DevOps practices actually work. DORA metrics (deployment frequency, lead time, MTTR, change failure rate) as the standard for measuring engineering performance.

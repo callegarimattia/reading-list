@@ -49,6 +49,9 @@ Every book page must have:
 | Type        | Book / Article / Multi-volume                  |
 | Published   | Year (editions if relevant)                    |
 | Status      | `not-started`                                  |
+| Impact      | `high` / `medium` / `low`                      |
+| Unlock      | `high` / `medium` / `low`                      |
+| Effort      | `light` / `medium` / `heavy`                   |
 
 ## Why Read This
 1-3 sentences on what this book teaches and why it matters.
@@ -78,6 +81,9 @@ tags:
   - status/not-started
   - author/kebab-case-name
   - topic tags (e.g., tdd, refactoring, ddd, agile, devops)
+  - impact/high
+  - unlock/high
+  - effort/medium
 ---
 ```
 
@@ -86,6 +92,7 @@ Tag conventions:
 - `status/not-started`, `status/in-progress`, `status/completed`, `status/on-hold`
 - `author/kent-beck`, `author/martin-fowler`, etc.
 - Topic tags: lowercase, kebab-case (e.g., `test-driven-development`, `design-patterns`, `domain-driven-design`)
+- `impact/high`, `unlock/high`, `effort/medium` — see [[Priority]] for dimension definitions
 
 ## Status Tracking
 

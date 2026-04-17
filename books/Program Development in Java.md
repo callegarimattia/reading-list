@@ -6,6 +6,9 @@ tags:
   - object-oriented-design
   - solid
   - data-abstraction
+  - impact/low
+  - unlock/low
+  - effort/medium
 ---
 
 # Program Development in Java: Abstraction, Specification, and Object-Oriented Design
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                               |
 | Published   | 2000                                               |
 | Status      | `not-started`                                      |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 Liskov's approach to data abstraction, specification, and OO design in Java. The practical expression of the type-theoretic ideas behind the [[concepts/SOLID Principles|Liskov Substitution Principle]].

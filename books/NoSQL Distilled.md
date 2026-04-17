@@ -5,6 +5,9 @@ tags:
   - author/martin-fowler
   - databases
   - data-modeling
+  - impact/low
+  - unlock/low
+  - effort/light
 ---
 
 # NoSQL Distilled
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 2012                                           |
 | Status      | `not-started`                                  |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `light`                                    |
 
 ## Why Read This
 Concise overview of NoSQL database types (document, key-value, column-family, graph) and the concept of polyglot persistence.

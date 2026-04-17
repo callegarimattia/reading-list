@@ -6,6 +6,9 @@ tags:
   - clean-code
   - software-craftsmanship
   - refactoring
+  - impact/high
+  - unlock/high
+  - effort/medium
 ---
 
 # Clean Code: A Handbook of Agile Software Craftsmanship
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                                 |
 | Published   | 2008                                                 |
 | Status      | `completed`                                        |
+| Impact      | `high`                                     |
+| Unlock      | `high`                                     |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The handbook on writing readable, maintainable code. Naming, functions, comments, formatting, error handling, and the Boy Scout Rule. One of the most widely read programming books.

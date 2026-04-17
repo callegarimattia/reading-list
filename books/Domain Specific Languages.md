@@ -5,6 +5,9 @@ tags:
   - author/martin-fowler
   - dsl
   - domain-driven-design
+  - impact/low
+  - unlock/low
+  - effort/heavy
 ---
 
 # Domain Specific Languages
@@ -15,6 +18,9 @@ tags:
 | Type        | Book                                           |
 | Published   | 2010                                           |
 | Status      | `not-started`                                  |
+| Impact      | `low`                                      |
+| Unlock      | `low`                                      |
+| Effort      | `heavy`                                    |
 
 ## Why Read This
 Comprehensive guide to internal and external DSLs, language workbenches, and when to use each approach.

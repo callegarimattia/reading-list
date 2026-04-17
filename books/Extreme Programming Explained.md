@@ -6,6 +6,9 @@ tags:
   - extreme-programming
   - agile
   - tdd
+  - impact/high
+  - unlock/medium
+  - effort/medium
 ---
 
 # Extreme Programming Explained: Embrace Change
@@ -16,6 +19,9 @@ tags:
 | Type        | Book                                     |
 | Published   | 1999 (1st ed), 2004 (2nd ed)            |
 | Status      | `not-started`                            |
+| Impact      | `high`                                     |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The defining text of [[concepts/Extreme Programming|XP]]. Values, principles, and practices — pair programming, continuous integration, small releases, simple design, collective ownership. The 2nd edition is more mature and reflective.

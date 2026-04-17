@@ -6,6 +6,9 @@ tags:
   - devops
   - continuous-delivery
   - deployment
+  - impact/medium
+  - unlock/medium
+  - effort/medium
 ---
 
 # Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation
@@ -17,6 +20,9 @@ tags:
 | Published   | 2010                                                   |
 | Series      | Martin Fowler Signature Series                         |
 | Status      | `not-started`                                          |
+| Impact      | `medium`                                   |
+| Unlock      | `medium`                                   |
+| Effort      | `medium`                                   |
 
 ## Why Read This
 The deployment pipeline pattern — from commit to production. Build automation, testing strategies, release management. The technical foundation of the [[concepts/DevOps|DevOps]] movement.
