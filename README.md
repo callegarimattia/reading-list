@@ -8,7 +8,6 @@ An Obsidian vault tracking software engineering books, authors, and concepts —
 - **23 authors** with bibliographies and connections
 - **20 concepts** with definitions and cross-references
 - **8 reading paths** — curated journeys (BDD, Architecture, Legacy Rescue, DDD, DevOps, etc.)
-- **Knowledge map** — lineage chains, clusters, and a full adjacency list
 
 ## How to Use
 
@@ -19,11 +18,9 @@ Open the `vault/` folder as a vault in [Obsidian](https://obsidian.md/). The gra
 | Page                | Purpose                                         |
 | ------------------- | ----------------------------------------------- |
 | `Reading List.md`   | Main index — all books, tiered by reading order |
-| `Knowledge Map.md`  | Relationship graph at a glance                  |
 | `Concepts Index.md` | Browse by topic                                 |
 | `Reading Paths.md`  | Curated 4-6 book sequences by goal              |
-| `Priority.md`       | Sorting function for what to read next          |
-| `CLAUDE.md`         | Vault conventions and templates                 |
+| `Priority.md`       | How to decide what to read next                 |
 
 ## Repo Structure
 
@@ -32,10 +29,14 @@ vault/              → The Obsidian vault (open this in Obsidian)
   books/            → one page per book (metadata, summary, related, notes)
   authors/          → one page per author (bio, bibliography, connections)
   concepts/         → one page per concept (definition, relationships, books)
+.agents/            → AI agent instructions (works with any coding assistant)
+  conventions.md    → Vault rules, templates, procedures
+  knowledge-map.md  → Relationship graph for agents
+  add-book.md       → Procedure: add a book
+  summarize-book.md → Procedure: summarize a book
+.claude/            → Claude Code wiring (points to .agents/)
 hooks/              → Git hooks (pre-commit)
 scripts/            → Validators
-.markdownlint.yaml  → Markdown lint config (targets vault/)
-.prettierrc.yaml    → Prettier config (targets vault/)
 ```
 
 ## Setup
@@ -59,11 +60,13 @@ prettier --check 'vault/**/*.md'      # Check formatting
 
 ## Adding Books
 
-With [Claude Code](https://claude.ai/claude-code):
+With any AI coding assistant, point it at `.agents/add-book.md`.
+
+With [Claude Code](https://claude.ai/claude-code) specifically:
 
 ```sh
 /add-book The Mikado Method
 /summarize-book Clean Code
 ```
 
-Or manually — see `CLAUDE.md` for the template and checklist.
+Or manually — see `.agents/conventions.md` for the template and checklist.

@@ -1,33 +1,33 @@
-# Reading List Vault — Rules & Conventions
+# Reading List Vault — Agent Conventions
 
-This is an Obsidian-style knowledge vault tracking software engineering books, authors, and concepts.
+Instructions for AI agents working with this Obsidian vault.
 
 ## Repo Structure
 
 ```text
-reading-list/
-├── CLAUDE.md                        # This file. Vault rules and conventions.
-├── README.md                        # Repo documentation.
-├── hooks/pre-commit                 # Git pre-commit hook (lint, format, validate).
-├── scripts/validate-frontmatter.sh  # Book page structure validator.
-├── .markdownlint.yaml               # Markdown lint config.
-├── .prettierrc.yaml                 # Prettier config.
-└── vault/                           # The Obsidian vault (open this in Obsidian).
-    ├── Reading List.md              # Main index. Single source of truth.
-    ├── Knowledge Map.md             # Full relationship graph. Read this first.
-    ├── Concepts Index.md            # Topic-based navigation.
-    ├── Reading Paths.md             # Curated 4-6 book journeys by goal.
-    ├── Priority.md                  # Sorting function for what to read next.
-    ├── Changelog.md                 # Append-only log of changes.
-    ├── books/                       # One page per book.
-    ├── concepts/                    # One page per concept.
-    └── authors/                     # One page per author.
+.agents/                             # Agent instructions (you are here).
+  conventions.md                     # This file.
+  knowledge-map.md                   # Relationship graph — read this first.
+  add-book.md                        # Procedure for adding a book.
+  summarize-book.md                  # Procedure for summarizing a book.
+.claude/commands/                    # Claude Code skill wiring (points to .agents/).
+vault/                               # The Obsidian vault.
+  books/                             # One page per book.
+  concepts/                          # One page per concept.
+  authors/                           # One page per author.
+  Reading List.md                    # Main index. Single source of truth.
+  Concepts Index.md                  # Topic-based navigation.
+  Reading Paths.md                   # Curated 4-6 book journeys by goal.
+  Priority.md                        # Dimension definitions and sorting function.
+  Changelog.md                       # Append-only log of changes.
+hooks/                               # Git pre-commit hook.
+scripts/                             # Validators.
 ```
 
 ## How to Navigate
 
-1. **Start with `vault/Knowledge Map.md`** — gives you the full graph at a glance
-2. **`vault/Reading List.md`** — the canonical list of all books, tiered by reading order
+1. **Start with `.agents/knowledge-map.md`** — the full graph at a glance
+2. **`vault/Reading List.md`** — canonical list of all books, tiered by reading order
 3. **`vault/Concepts Index.md`** — find books by topic
 4. **`vault/Reading Paths.md`** — curated sequences for specific goals
 
@@ -105,7 +105,7 @@ Tag conventions:
 - `status/not-started`, `status/in-progress`, `status/completed`, `status/on-hold`
 - `author/kent-beck`, `author/martin-fowler`, etc.
 - Topic tags: lowercase, kebab-case (e.g., `test-driven-development`, `design-patterns`, `domain-driven-design`)
-- `impact/high`, `unlock/high`, `effort/medium` — see `vault/Priority.md` for dimension definitions
+- `impact/high`, `unlock/high`, `effort/medium` — see `vault/Priority.md` for definitions
 
 ## Status Tracking
 
@@ -115,7 +115,7 @@ When changing status:
 
 1. Update the `Status` field in the book's metadata table
 2. Update the `status/*` tag in frontmatter
-3. Move the entry in Reading List.md to the correct section
+3. Move the entry in `vault/Reading List.md` to the correct section
 
 ## When to Create Pages
 
@@ -125,22 +125,17 @@ When changing status:
 
 ## Content Ownership (don't duplicate)
 
-- **Book pages** own: "Why Read This", reading notes, status
+- **Book pages** own: "Why Read This", reading notes, status, dimensions
 - **Concept pages** own: the definition, relationship to other concepts
 - **Author pages** own: bio, bibliography, connections to other authors
-- **Knowledge Map** owns: lineage chains, clusters, adjacency list
+- **Knowledge map** (`.agents/knowledge-map.md`) owns: lineage chains, clusters, adjacency list
 - **Reading List.md** owns: canonical list and reading order
 
 Cross-link between them. Don't copy content.
 
 ## When Adding a New Book
 
-1. Create the book page in `vault/books/` using the template above
-2. Create or update the author page in `vault/authors/`
-3. Link to existing concept pages (create new ones if 2+ books now reference the idea)
-4. Add the book to `vault/Reading List.md` in the appropriate tier
-5. Update `vault/Knowledge Map.md` — add to adjacency list, update lineage chains if applicable
-6. Append to `vault/Changelog.md`
+See `.agents/add-book.md` for the full procedure.
 
 ## When Adding a New Concept
 

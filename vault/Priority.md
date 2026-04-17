@@ -1,59 +1,36 @@
-# Priority System
+# Priority
 
-Priority is not stored — it's computed from intrinsic book dimensions + current context.
+How to decide what to read next.
 
-## Dimensions (intrinsic to the book)
+## Three Dimensions
 
-Each book page carries these in its metadata table and frontmatter tags:
+Every book has three ratings in its metadata:
 
-| Dimension  | Question                                   | Values                                                             |
-| ---------- | ------------------------------------------ | ------------------------------------------------------------------ |
-| **Impact** | Will this change how I work day-to-day?    | `high` / `medium` / `low`                                          |
-| **Unlock** | Does this open up other books or concepts? | `high` / `medium` / `low`                                          |
-| **Effort** | How long to read and absorb?               | `light` (<200p or article) / `medium` (200-400p) / `heavy` (400p+) |
+| Dimension  | What it means                              | Values                       |
+| ---------- | ------------------------------------------ | ---------------------------- |
+| **Impact** | Will this change how I work day-to-day?    | `high` / `medium` / `low`    |
+| **Unlock** | Does this open up other books or concepts? | `high` / `medium` / `low`    |
+| **Effort** | How long to read and absorb?               | `light` / `medium` / `heavy` |
 
-These are properties of the book itself and don't change with context.
+## How to Pick
 
-## Sorting Function
+1. Start with **high impact** books — they change your daily work
+2. Prefer **high unlock** — they make other books more useful
+3. When tied, pick **lower effort** — faster payoff
 
-To decide what to read next, sort by:
+Short version: maximize value, minimize cost.
 
-1. **Impact** descending (high > medium > low)
-2. **Unlock** descending (high > medium > low)
-3. **Effort** ascending (light > medium > heavy)
+## Override by Context
 
-In other words: maximize value, minimize cost.
+- Working on legacy code? Jump to [[books/Working Effectively with Legacy Code]] regardless of score
+- Just finished a book? Check what it unlocks in [[Reading Paths]]
+- Short on time? Search `tag:effort/light` in Obsidian
 
-## Context Override
+## Finding Books by Dimension
 
-The sorting function gives you a default order. Override it when:
-
-- **Current work context** makes a book immediately relevant (doing architecture work → architecture books jump to the top regardless of score)
-- **A prerequisite was just completed** — what it unlocks is now ready (finishing TDD by Example → BDD books become actionable)
-- **Time budget** is limited — filter by `effort/light` for quick wins
-
-## Tags
-
-Book pages carry dimensions as frontmatter tags:
-
-```yaml
-tags:
-  - impact/high
-  - unlock/high
-  - effort/medium
-```
-
-And in the metadata table:
-
-```markdown
-| Impact | `high` |
-| Unlock | `high` |
-| Effort | `medium` |
-```
-
-Use Obsidian tag search to filter:
+Use Obsidian's tag search:
 
 - `tag:impact/high` — highest daily-work value
 - `tag:unlock/high` — gateway books that open up others
-- `tag:effort/light` — quick reads when time is short
-- Combine: `tag:impact/high tag:effort/light` — best bang for buck
+- `tag:effort/light` — quick reads
+- `tag:impact/high tag:effort/light` — best bang for buck
