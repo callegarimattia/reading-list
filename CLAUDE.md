@@ -2,27 +2,34 @@
 
 This is an Obsidian-style knowledge vault tracking software engineering books, authors, and concepts.
 
-## Vault Structure
+## Repo Structure
 
 ```text
 reading-list/
-├── Reading List.md          # Main index. Tiered reading order. Single source of truth for what's in the vault.
-├── Knowledge Map.md         # Full relationship graph: lineage chains, clusters, adjacency list. Read this first.
-├── Concepts Index.md        # Topic-based navigation into concepts.
-├── Reading Paths.md         # Curated 4-6 book journeys by goal.
-├── Changelog.md             # Append-only log of changes.
-├── CLAUDE.md                # This file. Vault rules.
-├── books/                   # One page per book.
-├── concepts/                # One page per concept.
-└── authors/                 # One page per author.
+├── CLAUDE.md                        # This file. Vault rules and conventions.
+├── README.md                        # Repo documentation.
+├── hooks/pre-commit                 # Git pre-commit hook (lint, format, validate).
+├── scripts/validate-frontmatter.sh  # Book page structure validator.
+├── .markdownlint.yaml               # Markdown lint config.
+├── .prettierrc.yaml                 # Prettier config.
+└── vault/                           # The Obsidian vault (open this in Obsidian).
+    ├── Reading List.md              # Main index. Single source of truth.
+    ├── Knowledge Map.md             # Full relationship graph. Read this first.
+    ├── Concepts Index.md            # Topic-based navigation.
+    ├── Reading Paths.md             # Curated 4-6 book journeys by goal.
+    ├── Priority.md                  # Sorting function for what to read next.
+    ├── Changelog.md                 # Append-only log of changes.
+    ├── books/                       # One page per book.
+    ├── concepts/                    # One page per concept.
+    └── authors/                     # One page per author.
 ```
 
 ## How to Navigate
 
-1. **Start with Knowledge Map.md** — gives you the full graph at a glance
-2. **Reading List.md** — the canonical list of all books, tiered by reading order
-3. **Concepts Index.md** — find books by topic
-4. **Reading Paths.md** — curated sequences for specific goals
+1. **Start with `vault/Knowledge Map.md`** — gives you the full graph at a glance
+2. **`vault/Reading List.md`** — the canonical list of all books, tiered by reading order
+3. **`vault/Concepts Index.md`** — find books by topic
+4. **`vault/Reading Paths.md`** — curated sequences for specific goals
 
 ## File Naming Conventions
 
@@ -98,7 +105,7 @@ Tag conventions:
 - `status/not-started`, `status/in-progress`, `status/completed`, `status/on-hold`
 - `author/kent-beck`, `author/martin-fowler`, etc.
 - Topic tags: lowercase, kebab-case (e.g., `test-driven-development`, `design-patterns`, `domain-driven-design`)
-- `impact/high`, `unlock/high`, `effort/medium` — see [[Priority]] for dimension definitions
+- `impact/high`, `unlock/high`, `effort/medium` — see `vault/Priority.md` for dimension definitions
 
 ## Status Tracking
 
@@ -128,16 +135,16 @@ Cross-link between them. Don't copy content.
 
 ## When Adding a New Book
 
-1. Create the book page in `books/` using the template above
-2. Create or update the author page in `authors/`
+1. Create the book page in `vault/books/` using the template above
+2. Create or update the author page in `vault/authors/`
 3. Link to existing concept pages (create new ones if 2+ books now reference the idea)
-4. Add the book to `Reading List.md` in the appropriate tier
-5. Update `Knowledge Map.md` — add to adjacency list, update lineage chains if applicable
-6. Append to `Changelog.md`
+4. Add the book to `vault/Reading List.md` in the appropriate tier
+5. Update `vault/Knowledge Map.md` — add to adjacency list, update lineage chains if applicable
+6. Append to `vault/Changelog.md`
 
 ## When Adding a New Concept
 
-1. Create the concept page in `concepts/`
-2. Add it to `Concepts Index.md` under the right category
+1. Create the concept page in `vault/concepts/`
+2. Add it to `vault/Concepts Index.md` under the right category
 3. Update book pages that relate to this concept (add to their Key Concepts)
-4. Append to `Changelog.md`
+4. Append to `vault/Changelog.md`
