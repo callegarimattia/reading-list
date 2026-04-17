@@ -1,47 +1,41 @@
 #!/usr/bin/env bash
-# Validates that every book page has required frontmatter tags and metadata fields.
+# Validates book pages have required frontmatter, metadata fields, and sections.
 # Usage: ./scripts/validate-frontmatter.sh
 
 set -euo pipefail
 
-BOOKS_DIR="vault/books"
+dir="vault/books"
 errors=0
 checked=0
 
-for file in "$BOOKS_DIR"/*.md; do
+required_tags=("book" "status/" "impact/" "unlock/" "effort/")
+required_fields=("Author" "Type" "Published" "Status" "Impact" "Unlock" "Effort")
+required_sections=("## Why Read This" "## Key Concepts" "## Related" "## Notes")
+
+for file in "$dir"/*.md; do
   checked=$((checked + 1))
   name=$(basename "$file")
 
-  # Check required frontmatter tags
-  for tag in "book" "status/" "impact/" "unlock/" "effort/"; do
-    if ! grep -q "  - $tag" "$file" 2>/dev/null; then
-      echo "FAIL [$name]: missing frontmatter tag '$tag'"
-      errors=$((errors + 1))
-    fi
+  for tag in "${required_tags[@]}"; do
+    grep -q "  - $tag" "$file" 2>/dev/null ||
+      { echo "FAIL [$name]: missing tag '$tag'"; errors=$((errors + 1)); }
   done
 
-  # Check required metadata table fields
-  for field in "Author" "Type" "Published" "Status" "Impact" "Unlock" "Effort"; do
-    if ! grep -q "| $field" "$file" 2>/dev/null; then
-      echo "FAIL [$name]: missing metadata field '$field'"
-      errors=$((errors + 1))
-    fi
+  for field in "${required_fields[@]}"; do
+    grep -q "| $field" "$file" 2>/dev/null ||
+      { echo "FAIL [$name]: missing field '$field'"; errors=$((errors + 1)); }
   done
 
-  # Check required sections
-  for section in "## Why Read This" "## Key Concepts" "## Related" "## Notes"; do
-    if ! grep -q "$section" "$file" 2>/dev/null; then
-      echo "FAIL [$name]: missing section '$section'"
-      errors=$((errors + 1))
-    fi
+  for section in "${required_sections[@]}"; do
+    grep -q "$section" "$file" 2>/dev/null ||
+      { echo "FAIL [$name]: missing section '$section'"; errors=$((errors + 1)); }
   done
 done
 
 if [ $errors -eq 0 ]; then
-  echo "OK: all $checked book pages pass frontmatter validation"
-  exit 0
+  echo "OK: all $checked book pages valid"
 else
   echo ""
-  echo "FAILED: $errors errors across $checked book pages"
+  echo "FAILED: $errors errors across $checked books"
   exit 1
 fi

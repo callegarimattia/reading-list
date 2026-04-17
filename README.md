@@ -32,7 +32,7 @@ vault/              → The Obsidian vault (open this in Obsidian)
   books/            → one page per book (metadata, summary, related, notes)
   authors/          → one page per author (bio, bibliography, connections)
   concepts/         → one page per concept (definition, relationships, books)
-scripts/            → Validators (frontmatter, wiki-links)
+scripts/            → Validators
 .markdownlint.yaml  → Markdown lint config (targets vault/)
 .prettierrc.yaml    → Prettier config (targets vault/)
 ```
@@ -43,7 +43,6 @@ scripts/            → Validators (frontmatter, wiki-links)
 markdownlint 'vault/**/*.md'          # Lint markdown
 prettier --check 'vault/**/*.md'      # Check formatting
 ./scripts/validate-frontmatter.sh     # Verify book page structure
-./scripts/validate-wikilinks.sh       # Check for broken [[links]]
 ```
 
 ## Adding Books
