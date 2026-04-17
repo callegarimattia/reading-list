@@ -9,7 +9,7 @@ tags:
   - quality-attributes
   - continuous-architecture
   - evolutionary-architecture
-  - impact/medium
+  - impact/low
   - unlock/medium
   - effort/medium
 ---
@@ -22,7 +22,7 @@ tags:
 | Type      | Book                                                                          |
 | Published | 2021                                                                          |
 | Status    | `not-started`                                                                 |
-| Impact    | `medium`                                                                      |
+| Impact    | `low`                                                                         |
 | Unlock    | `medium`                                                                      |
 | Effort    | `medium`                                                                      |
 

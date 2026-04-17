@@ -8,7 +8,7 @@ tags:
   - software-complexity
   - distributed-systems
   - modularity
-  - impact/high
+  - impact/low
   - unlock/high
   - effort/medium
 ---
@@ -21,7 +21,7 @@ tags:
 | Type      | Book                                     |
 | Published | 2024                                     |
 | Status    | `not-started`                            |
-| Impact    | `high`                                   |
+| Impact    | `low`                                    |
 | Unlock    | `high`                                   |
 | Effort    | `medium`                                 |
 

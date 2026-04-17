@@ -7,7 +7,7 @@ tags:
   - decision-making
   - technical-leadership
   - product-management
-  - impact/medium
+  - impact/low
   - unlock/medium
   - effort/medium
 ---
@@ -20,7 +20,7 @@ tags:
 | Type      | Book                                       |
 | Published | 2023                                       |
 | Status    | `not-started`                              |
-| Impact    | `medium`                                   |
+| Impact    | `low`                                      |
 | Unlock    | `medium`                                   |
 | Effort    | `medium`                                   |
 

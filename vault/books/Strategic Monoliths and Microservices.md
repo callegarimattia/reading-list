@@ -9,7 +9,7 @@ tags:
   - monoliths
   - digital-transformation
   - strategic-design
-  - impact/high
+  - impact/low
   - unlock/medium
   - effort/medium
 ---
@@ -22,7 +22,7 @@ tags:
 | Type      | Book                                                                           |
 | Published | 2022                                                                           |
 | Status    | `not-started`                                                                  |
-| Impact    | `high`                                                                         |
+| Impact    | `low`                                                                          |
 | Unlock    | `medium`                                                                       |
 | Effort    | `medium`                                                                       |
 

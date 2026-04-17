@@ -8,7 +8,7 @@ tags:
   - test-driven-development
   - empirical-approach
   - feedback-loops
-  - impact/high
+  - impact/medium
   - unlock/medium
   - effort/medium
 ---
@@ -21,7 +21,7 @@ tags:
 | Type      | Book                                   |
 | Published | 2022                                   |
 | Status    | `not-started`                          |
-| Impact    | `high`                                 |
+| Impact    | `medium`                               |
 | Unlock    | `medium`                               |
 | Effort    | `medium`                               |
 

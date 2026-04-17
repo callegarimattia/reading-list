@@ -5,7 +5,7 @@ tags:
   - author/vaughn-vernon
   - domain-driven-design
   - ubiquitous-language
-  - impact/high
+  - impact/medium
   - unlock/high
   - effort/light
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book                                     |
 | Published | 2016                                     |
 | Status    | `not-started`                            |
-| Impact    | `high`                                   |
+| Impact    | `medium`                                 |
 | Unlock    | `high`                                   |
 | Effort    | `light`                                  |
 

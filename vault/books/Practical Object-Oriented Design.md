@@ -8,7 +8,7 @@ tags:
   - dependency-management
   - interfaces
   - testing
-  - impact/high
+  - impact/medium
   - unlock/high
   - effort/medium
 ---
@@ -21,7 +21,7 @@ tags:
 | Type      | Book                               |
 | Published | 2018 (2nd edition)                 |
 | Status    | `not-started`                      |
-| Impact    | `high`                             |
+| Impact    | `medium`                           |
 | Unlock    | `high`                             |
 | Effort    | `medium`                           |
 

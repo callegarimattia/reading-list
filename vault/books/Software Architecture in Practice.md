@@ -9,7 +9,7 @@ tags:
   - quality-attributes
   - architecture-evaluation
   - atam
-  - impact/high
+  - impact/medium
   - unlock/high
   - effort/heavy
 ---
@@ -22,7 +22,7 @@ tags:
 | Type      | Book                                                                                       |
 | Published | 2021 (4th edition)                                                                         |
 | Status    | `not-started`                                                                              |
-| Impact    | `high`                                                                                     |
+| Impact    | `medium`                                                                                   |
 | Unlock    | `high`                                                                                     |
 | Effort    | `heavy`                                                                                    |
 

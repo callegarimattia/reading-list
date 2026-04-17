@@ -12,7 +12,7 @@ tags:
   - distributed-systems
   - microservices
   - message-exchanges
-  - impact/medium
+  - impact/low
   - unlock/medium
   - effort/heavy
 ---
@@ -25,7 +25,7 @@ tags:
 | Type      | Book                                                                                                                                                                 |
 | Published | 2023                                                                                                                                                                 |
 | Status    | `not-started`                                                                                                                                                        |
-| Impact    | `medium`                                                                                                                                                             |
+| Impact    | `low`                                                                                                                                                                |
 | Unlock    | `medium`                                                                                                                                                             |
 | Effort    | `heavy`                                                                                                                                                              |
 

@@ -6,15 +6,21 @@ How to decide what to read next.
 
 Every book has three ratings in its metadata:
 
-| Dimension  | What it means                              | Values                       |
-| ---------- | ------------------------------------------ | ---------------------------- |
-| **Impact** | Will this change how I work day-to-day?    | `high` / `medium` / `low`    |
-| **Unlock** | Does this open up other books or concepts? | `high` / `medium` / `low`    |
-| **Effort** | How long to read and absorb?               | `light` / `medium` / `heavy` |
+| Dimension  | What it means                                                | Values                       |
+| ---------- | ------------------------------------------------------------ | ---------------------------- |
+| **Impact** | How much did this book shape the software engineering field? | `high` / `medium` / `low`    |
+| **Unlock** | Does this open up other books or concepts?                   | `high` / `medium` / `low`    |
+| **Effort** | How long to read and absorb?                                 | `light` / `medium` / `heavy` |
+
+### Impact Levels
+
+- **high** — coined foundational concepts adopted industry-wide (think citation count)
+- **medium** — well-known in its domain, regularly referenced by practitioners
+- **low** — solid book but niche audience or too recent to have significant influence
 
 ## How to Pick
 
-1. Start with **high impact** books — they change your daily work
+1. Start with **high impact** books — they defined how the industry thinks
 2. Prefer **high unlock** — they make other books more useful
 3. When tied, pick **lower effort** — faster payoff
 
@@ -30,7 +36,7 @@ Short version: maximize value, minimize cost.
 
 Use Obsidian's tag search:
 
-- `tag:impact/high` — highest daily-work value
+- `tag:impact/high` — field-defining books with industry-wide influence
 - `tag:unlock/high` — gateway books that open up others
 - `tag:effort/light` — quick reads
-- `tag:impact/high tag:effort/light` — best bang for buck
+- `tag:impact/high tag:effort/light` — foundational ideas, accessible format

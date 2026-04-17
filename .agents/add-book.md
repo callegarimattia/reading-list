@@ -17,7 +17,7 @@ Read `.agents/conventions-core.md` for templates and tag conventions.
 - Identify related books already in the vault (check `vault/books/`)
 - Determine which tier it belongs to in `vault/Reading List.md`, or suggest a new section
 - Generate appropriate YAML frontmatter tags (see conventions)
-- Assess the three dimensions: impact, unlock, effort (see `vault/Priority.md`)
+- Assess the three dimensions: impact (industry influence), unlock, effort (see `vault/Priority.md`)
 
 ### 2. Create the book page
 

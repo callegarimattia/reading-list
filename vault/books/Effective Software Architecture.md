@@ -7,7 +7,7 @@ tags:
   - decision-making
   - architecture-teams
   - technical-leadership
-  - impact/medium
+  - impact/low
   - unlock/medium
   - effort/medium
 ---
@@ -20,7 +20,7 @@ tags:
 | Type      | Book                                       |
 | Published | 2024                                       |
 | Status    | `not-started`                              |
-| Impact    | `medium`                                   |
+| Impact    | `low`                                      |
 | Unlock    | `medium`                                   |
 | Effort    | `medium`                                   |
 

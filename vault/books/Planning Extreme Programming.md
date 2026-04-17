@@ -6,7 +6,7 @@ tags:
   - author/martin-fowler
   - extreme-programming
   - agile
-  - impact/medium
+  - impact/low
   - unlock/low
   - effort/medium
 ---
@@ -19,7 +19,7 @@ tags:
 | Type      | Book                                                                        |
 | Published | 2000                                                                        |
 | Status    | `not-started`                                                               |
-| Impact    | `medium`                                                                    |
+| Impact    | `low`                                                                       |
 | Unlock    | `low`                                                                       |
 | Effort    | `medium`                                                                    |
 

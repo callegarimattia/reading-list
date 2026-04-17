@@ -7,7 +7,7 @@ tags:
   - refactoring
   - legacy-code
   - mikado-method
-  - impact/high
+  - impact/low
   - unlock/medium
   - effort/medium
 ---
@@ -20,7 +20,7 @@ tags:
 | Type      | Book                                                                         |
 | Published | 2014                                                                         |
 | Status    | `not-started`                                                                |
-| Impact    | `high`                                                                       |
+| Impact    | `low`                                                                        |
 | Unlock    | `medium`                                                                     |
 | Effort    | `medium`                                                                     |
 

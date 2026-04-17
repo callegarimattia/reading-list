@@ -5,7 +5,7 @@ tags:
   - author/fred-brooks
   - software-complexity
   - project-management
-  - impact/medium
+  - impact/high
   - unlock/medium
   - effort/medium
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book                                 |
 | Published | 1975 (1st ed), 1995 (Anniversary ed) |
 | Status    | `not-started`                        |
-| Impact    | `medium`                             |
+| Impact    | `high`                               |
 | Unlock    | `medium`                             |
 | Effort    | `medium`                             |
 

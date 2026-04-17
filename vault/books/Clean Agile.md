@@ -5,7 +5,7 @@ tags:
   - author/robert-c-martin
   - agile
   - extreme-programming
-  - impact/medium
+  - impact/low
   - unlock/low
   - effort/light
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book                                          |
 | Published | 2019                                          |
 | Status    | `not-started`                                 |
-| Impact    | `medium`                                      |
+| Impact    | `low`                                         |
 | Unlock    | `low`                                         |
 | Effort    | `light`                                       |
 

@@ -6,7 +6,7 @@ tags:
   - bdd
   - tdd
   - agile
-  - impact/high
+  - impact/medium
   - unlock/high
   - effort/light
 ---
@@ -19,7 +19,7 @@ tags:
 | Type      | Article / Essay (original blog post) |
 | Published | 2006                                 |
 | Status    | `not-started`                        |
-| Impact    | `high`                               |
+| Impact    | `medium`                             |
 | Unlock    | `high`                               |
 | Effort    | `light`                              |
 

@@ -5,7 +5,7 @@ tags:
   - author/gene-kim
   - devops
   - lean
-  - impact/medium
+  - impact/high
   - unlock/medium
   - effort/medium
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book (novel)                                                |
 | Published | 2013                                                        |
 | Status    | `not-started`                                               |
-| Impact    | `medium`                                                    |
+| Impact    | `high`                                                      |
 | Unlock    | `medium`                                                    |
 | Effort    | `medium`                                                    |
 

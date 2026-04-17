@@ -6,7 +6,7 @@ tags:
   - bdd
   - specification-by-example
   - acceptance-testing
-  - impact/high
+  - impact/medium
   - unlock/medium
   - effort/medium
 ---
@@ -19,7 +19,7 @@ tags:
 | Type      | Book                                 |
 | Published | 2011                                 |
 | Status    | `not-started`                        |
-| Impact    | `high`                               |
+| Impact    | `medium`                             |
 | Unlock    | `medium`                             |
 | Effort    | `medium`                             |
 

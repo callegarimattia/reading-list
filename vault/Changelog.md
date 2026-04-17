@@ -6,6 +6,13 @@ Append-only log of vault changes. Most recent first.
 
 ## 2026-04-17
 
+### Redesigned Impact dimension
+
+- Changed Impact from "personal daily-work utility" to "industry influence" (how much the book shaped the field)
+- Re-rated 35 of 61 books. New distribution: 17 high, 14 medium, 30 low (was 21/28/12)
+- Notable promotions: The Mythical Man-Month, TAOCP, A Pattern Language, Continuous Delivery, PoEAA, The Phoenix Project
+- Updated Priority.md, conventions, and add-book procedure
+
 ### Bulk import: 18 books from ~/Documents/books/
 
 - Added [[books/Architecture for Flow|Architecture for Flow]] by Susanne Kaiser

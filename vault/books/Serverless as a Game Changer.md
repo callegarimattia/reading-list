@@ -7,7 +7,7 @@ tags:
   - cloud-architecture
   - managed-services
   - developer-productivity
-  - impact/medium
+  - impact/low
   - unlock/low
   - effort/light
 ---
@@ -20,7 +20,7 @@ tags:
 | Type      | Book                               |
 | Published | 2024                               |
 | Status    | `not-started`                      |
-| Impact    | `medium`                           |
+| Impact    | `low`                              |
 | Unlock    | `low`                              |
 | Effort    | `light`                            |
 

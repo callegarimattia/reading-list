@@ -6,7 +6,7 @@ tags:
   - domain-driven-design
   - cqrs
   - event-sourcing
-  - impact/high
+  - impact/medium
   - unlock/medium
   - effort/heavy
 ---
@@ -19,7 +19,7 @@ tags:
 | Type      | Book (the "Red Book")                    |
 | Published | 2013                                     |
 | Status    | `not-started`                            |
-| Impact    | `high`                                   |
+| Impact    | `medium`                                 |
 | Unlock    | `medium`                                 |
 | Effort    | `heavy`                                  |
 

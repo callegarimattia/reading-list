@@ -8,7 +8,7 @@ tags:
   - wardley-mapping
   - software-architecture
   - sociotechnical-systems
-  - impact/high
+  - impact/low
   - unlock/high
   - effort/medium
 ---
@@ -21,7 +21,7 @@ tags:
 | Type      | Book                                       |
 | Published | 2026                                       |
 | Status    | `not-started`                              |
-| Impact    | `high`                                     |
+| Impact    | `low`                                      |
 | Unlock    | `high`                                     |
 | Effort    | `medium`                                   |
 

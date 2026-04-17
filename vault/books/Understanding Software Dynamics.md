@@ -8,7 +8,7 @@ tags:
   - tracing
   - observability
   - system-dynamics
-  - impact/medium
+  - impact/low
   - unlock/low
   - effort/heavy
 ---
@@ -21,7 +21,7 @@ tags:
 | Type      | Book                                           |
 | Published | 2022                                           |
 | Status    | `not-started`                                  |
-| Impact    | `medium`                                       |
+| Impact    | `low`                                          |
 | Unlock    | `low`                                          |
 | Effort    | `heavy`                                        |
 

@@ -6,7 +6,7 @@ tags:
   - use-cases
   - requirements
   - agile
-  - impact/medium
+  - impact/high
   - unlock/low
   - effort/medium
 ---
@@ -19,7 +19,7 @@ tags:
 | Type      | Book                                             |
 | Published | 2000                                             |
 | Status    | `not-started`                                    |
-| Impact    | `medium`                                         |
+| Impact    | `high`                                           |
 | Unlock    | `low`                                            |
 | Effort    | `medium`                                         |
 

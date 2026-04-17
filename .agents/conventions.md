@@ -107,7 +107,7 @@ Tag conventions:
 - `status/not-started`, `status/in-progress`, `status/completed`, `status/on-hold`
 - `author/kent-beck`, `author/martin-fowler`, etc.
 - Topic tags: lowercase, kebab-case (e.g., `test-driven-development`, `design-patterns`, `domain-driven-design`)
-- `impact/high`, `unlock/high`, `effort/medium` — see `vault/Priority.md` for definitions
+- `impact/high`, `unlock/high`, `effort/medium` — Impact = industry influence; see `vault/Priority.md` for full definitions
 
 ## Status Tracking
 

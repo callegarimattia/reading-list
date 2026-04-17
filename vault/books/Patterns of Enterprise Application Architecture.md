@@ -6,7 +6,7 @@ tags:
   - design-patterns
   - software-architecture
   - enterprise
-  - impact/medium
+  - impact/high
   - unlock/high
   - effort/heavy
 ---
@@ -19,7 +19,7 @@ tags:
 | Type      | Book                                     |
 | Published | 2002                                     |
 | Status    | `not-started`                            |
-| Impact    | `medium`                                 |
+| Impact    | `high`                                   |
 | Unlock    | `high`                                   |
 | Effort    | `heavy`                                  |
 

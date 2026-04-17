@@ -5,7 +5,7 @@ tags:
   - author/alistair-cockburn
   - agile
   - methodology
-  - impact/medium
+  - impact/low
   - unlock/low
   - effort/medium
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book                                             |
 | Published | 2001 (1st ed), 2006 (2nd ed)                     |
 | Status    | `not-started`                                    |
-| Impact    | `medium`                                         |
+| Impact    | `low`                                            |
 | Unlock    | `low`                                            |
 | Effort    | `medium`                                         |
 

@@ -5,7 +5,7 @@ tags:
   - author/kent-beck
   - design-patterns
   - java
-  - impact/medium
+  - impact/low
   - unlock/low
   - effort/medium
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book                             |
 | Published | 2007                             |
 | Status    | `not-started`                    |
-| Impact    | `medium`                         |
+| Impact    | `low`                            |
 | Unlock    | `low`                            |
 | Effort    | `medium`                         |
 

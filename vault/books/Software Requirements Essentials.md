@@ -8,7 +8,7 @@ tags:
   - business-analysis
   - user-stories
   - requirements-practices
-  - impact/medium
+  - impact/low
   - unlock/medium
   - effort/light
 ---
@@ -21,7 +21,7 @@ tags:
 | Type      | Book                                                                             |
 | Published | 2023                                                                             |
 | Status    | `not-started`                                                                    |
-| Impact    | `medium`                                                                         |
+| Impact    | `low`                                                                            |
 | Unlock    | `medium`                                                                         |
 | Effort    | `light`                                                                          |
 

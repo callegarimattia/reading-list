@@ -5,7 +5,7 @@ tags:
   - author/donald-knuth
   - algorithms
   - computer-science
-  - impact/low
+  - impact/high
   - unlock/low
   - effort/heavy
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Multi-volume book (ongoing)            |
 | Published | 1968-ongoing (Vols 1-4B)               |
 | Status    | `not-started`                          |
-| Impact    | `low`                                  |
+| Impact    | `high`                                 |
 | Unlock    | `low`                                  |
 | Effort    | `heavy`                                |
 

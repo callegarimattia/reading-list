@@ -5,7 +5,7 @@ tags:
   - author/robert-c-martin
   - software-craftsmanship
   - professionalism
-  - impact/medium
+  - impact/low
   - unlock/low
   - effort/medium
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book                                          |
 | Published | 2011                                          |
 | Status    | `not-started`                                 |
-| Impact    | `medium`                                      |
+| Impact    | `low`                                         |
 | Unlock    | `low`                                         |
 | Effort    | `medium`                                      |
 

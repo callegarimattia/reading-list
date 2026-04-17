@@ -5,7 +5,7 @@ tags:
   - author/edsger-dijkstra
   - structured-programming
   - formal-methods
-  - impact/low
+  - impact/high
   - unlock/low
   - effort/heavy
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book                                            |
 | Published | 1976                                            |
 | Status    | `not-started`                                   |
-| Impact    | `low`                                           |
+| Impact    | `high`                                          |
 | Unlock    | `low`                                           |
 | Effort    | `heavy`                                         |
 

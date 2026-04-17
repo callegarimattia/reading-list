@@ -66,6 +66,12 @@ Follow existing pages in `vault/authors/` — bio line, Books in This List, Key 
 
 `not-started` | `in-progress` | `completed` | `on-hold`
 
+## Dimension Notes
+
+- **Impact** = industry influence (how much the book shaped the field). See `vault/Priority.md`.
+- **Unlock** = gateway value (does it open up other books/concepts).
+- **Effort** = reading time and density.
+
 ## When to Create Concept Pages
 
 Only when 2+ books reference the same idea.

@@ -5,7 +5,7 @@ tags:
   - author/christopher-alexander
   - design-patterns
   - pattern-languages
-  - impact/low
+  - impact/high
   - unlock/medium
   - effort/heavy
 ---
@@ -18,7 +18,7 @@ tags:
 | Type      | Book                                                     |
 | Published | 1977                                                     |
 | Status    | `not-started`                                            |
-| Impact    | `low`                                                    |
+| Impact    | `high`                                                   |
 | Unlock    | `medium`                                                 |
 | Effort    | `heavy`                                                  |
 

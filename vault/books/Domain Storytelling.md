@@ -9,7 +9,7 @@ tags:
   - collaborative-modeling
   - requirements
   - ubiquitous-language
-  - impact/medium
+  - impact/low
   - unlock/medium
   - effort/light
 ---
@@ -22,7 +22,7 @@ tags:
 | Type      | Book                                                                               |
 | Published | 2022                                                                               |
 | Status    | `not-started`                                                                      |
-| Impact    | `medium`                                                                           |
+| Impact    | `low`                                                                              |
 | Unlock    | `medium`                                                                           |
 | Effort    | `light`                                                                            |
 

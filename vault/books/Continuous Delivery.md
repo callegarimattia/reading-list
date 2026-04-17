@@ -6,7 +6,7 @@ tags:
   - devops
   - continuous-delivery
   - deployment
-  - impact/medium
+  - impact/high
   - unlock/medium
   - effort/medium
 ---
@@ -20,7 +20,7 @@ tags:
 | Published | 2010                                                                        |
 | Series    | Martin Fowler Signature Series                                              |
 | Status    | `not-started`                                                               |
-| Impact    | `medium`                                                                    |
+| Impact    | `high`                                                                      |
 | Unlock    | `medium`                                                                    |
 | Effort    | `medium`                                                                    |
 
