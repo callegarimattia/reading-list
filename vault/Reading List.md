@@ -10,7 +10,6 @@
 ## Tier 2 -- Core Practices
 
 - [[books/Test-Driven Development By Example|TDD by Example]] - [[authors/Kent Beck|Kent Beck]]
-- [[books/Refactoring|Refactoring]] - [[authors/Martin Fowler|Martin Fowler]]
 - [[books/Working Effectively with Legacy Code|Working Effectively with Legacy Code]] - [[authors/Michael Feathers|Michael Feathers]]
 - [[books/The Mikado Method|The Mikado Method]] - [[authors/Ola Ellnestam and Daniel Brolund|Ellnestam & Brolund]]
 - [[books/Introducing BDD|Introducing BDD]] - [[authors/Dan North|Dan North]]
@@ -82,7 +81,7 @@
 
 ## Currently Reading
 
--
+- [[books/Refactoring|Refactoring]] - [[authors/Martin Fowler|Martin Fowler]]
 
 ## Completed
 

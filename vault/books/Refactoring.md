@@ -1,7 +1,7 @@
 ---
 tags:
   - book
-  - status/not-started
+  - status/in-progress
   - author/martin-fowler
   - refactoring
   - code-smells
@@ -18,7 +18,7 @@ tags:
 | Author    | [[authors/Martin Fowler\|Martin Fowler]]       |
 | Type      | Book                                           |
 | Published | 1999 (1st ed, Java), 2018 (2nd ed, JavaScript) |
-| Status    | `not-started`                                  |
+| Status    | `in-progress`                                  |
 | Impact    | `high`                                         |
 | Unlock    | `high`                                         |
 | Effort    | `medium`                                       |
